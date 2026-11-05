@@ -1,0 +1,70 @@
+{
+  "id": "rose-pine",
+  "name": "Rosé Pine",
+  "version": "1.0.0",
+  "apiVersion": "^0.48.0",
+  "contributes": {
+    "themes": [
+      {
+        "id": "rose-pine:rose-pine",
+        "name": "Rosé Pine",
+        "codeTheme": "rose-pine:code",
+        "light": {
+          "page": "#FAF4ED",
+          "text": "#575279",
+          "text-muted": "#797593",
+          "text-subtle": "#9893A5",
+          "accent": "#B4637A",
+          "accent-hover": "#9A4F66",
+          "accent-tint": "rgba(180, 99, 122, 0.12)",
+          "surface-panel": "#FFFAF3",
+          "surface-control": "#F2E9E1"
+        },
+        "dark": {
+          "page": "#191724",
+          "text": "#E0DEF4",
+          "text-muted": "#908CAA",
+          "text-subtle": "#6E6A86",
+          "accent": "#EBBCBA",
+          "accent-hover": "#F2CDCB",
+          "accent-tint": "rgba(235, 188, 186, 0.16)",
+          "surface-panel": "#1F1D2E",
+          "surface-control": "#26233A"
+        }
+      },
+      {
+        "id": "rose-pine:code",
+        "name": "Rosé Pine code",
+        "scope": "code",
+        "light": {
+          "surface-code": "#FFFAF3",
+          "syntax-keyword": "#286983",
+          "syntax-string": "#B9770E",
+          "syntax-comment": "#9893A5",
+          "syntax-number": "#B4637A",
+          "syntax-function": "#907AA9",
+          "syntax-type": "#56949F",
+          "syntax-variable": "#575279",
+          "syntax-operator": "#797593",
+          "syntax-punctuation": "#797593",
+          "syntax-tag": "#286983",
+          "syntax-attribute": "#D7827E"
+        },
+        "dark": {
+          "surface-code": "#1F1D2E",
+          "syntax-keyword": "#C4A7E7",
+          "syntax-string": "#F6C177",
+          "syntax-comment": "#6E6A86",
+          "syntax-number": "#EB6F92",
+          "syntax-function": "#9CCFD8",
+          "syntax-type": "#EBBCBA",
+          "syntax-variable": "#E0DEF4",
+          "syntax-operator": "#908CAA",
+          "syntax-punctuation": "#908CAA",
+          "syntax-tag": "#9CCFD8",
+          "syntax-attribute": "#C4A7E7"
+        }
+      }
+    ]
+  }
+}

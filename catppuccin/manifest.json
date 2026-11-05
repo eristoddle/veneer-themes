@@ -1,0 +1,70 @@
+{
+  "id": "catppuccin",
+  "name": "Catppuccin",
+  "version": "1.0.0",
+  "apiVersion": "^0.48.0",
+  "contributes": {
+    "themes": [
+      {
+        "id": "catppuccin:catppuccin",
+        "name": "Catppuccin",
+        "codeTheme": "catppuccin:code",
+        "light": {
+          "page": "#EFF1F5",
+          "text": "#4C4F69",
+          "text-muted": "#5C5F77",
+          "text-subtle": "#7C7F93",
+          "accent": "#8839EF",
+          "accent-hover": "#6F2BD0",
+          "accent-tint": "rgba(136, 57, 239, 0.12)",
+          "surface-panel": "#E6E9EF",
+          "surface-control": "#DCE0E8"
+        },
+        "dark": {
+          "page": "#1E1E2E",
+          "text": "#CDD6F4",
+          "text-muted": "#A6ADC8",
+          "text-subtle": "#7F849C",
+          "accent": "#CBA6F7",
+          "accent-hover": "#D9BCFA",
+          "accent-tint": "rgba(203, 166, 247, 0.16)",
+          "surface-panel": "#181825",
+          "surface-control": "#313244"
+        }
+      },
+      {
+        "id": "catppuccin:code",
+        "name": "Catppuccin code",
+        "scope": "code",
+        "light": {
+          "surface-code": "#E6E9EF",
+          "syntax-keyword": "#8839EF",
+          "syntax-string": "#40A02B",
+          "syntax-comment": "#7C7F93",
+          "syntax-number": "#FE640B",
+          "syntax-function": "#1E66F5",
+          "syntax-type": "#DF8E1D",
+          "syntax-variable": "#4C4F69",
+          "syntax-operator": "#5C5F77",
+          "syntax-punctuation": "#5C5F77",
+          "syntax-tag": "#1E66F5",
+          "syntax-attribute": "#179299"
+        },
+        "dark": {
+          "surface-code": "#181825",
+          "syntax-keyword": "#CBA6F7",
+          "syntax-string": "#A6E3A1",
+          "syntax-comment": "#7F849C",
+          "syntax-number": "#FAB387",
+          "syntax-function": "#89B4FA",
+          "syntax-type": "#F9E2AF",
+          "syntax-variable": "#CDD6F4",
+          "syntax-operator": "#A6ADC8",
+          "syntax-punctuation": "#A6ADC8",
+          "syntax-tag": "#89B4FA",
+          "syntax-attribute": "#94E2D5"
+        }
+      }
+    ]
+  }
+}

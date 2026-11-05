@@ -1,0 +1,107 @@
+{
+  "id": "typewriter",
+  "name": "Typewriter",
+  "version": "1.0.0",
+  "apiVersion": "^0.48.0",
+  "contributes": {
+    "themes": [
+      {
+        "id": "typewriter:typewriter",
+        "name": "Typewriter",
+        "codeTheme": "typewriter:code",
+        "fonts": {
+          "body": {
+            "family": "Courier Prime",
+            "files": [
+              {
+                "path": "fonts/courier-prime-latin-400-normal.woff2",
+                "weight": 400,
+                "style": "normal"
+              },
+              {
+                "path": "fonts/courier-prime-latin-400-italic.woff2",
+                "weight": 400,
+                "style": "italic"
+              },
+              {
+                "path": "fonts/courier-prime-latin-700-normal.woff2",
+                "weight": 700,
+                "style": "normal"
+              }
+            ]
+          },
+          "heading": {
+            "family": "Courier Prime",
+            "files": [
+              {
+                "path": "fonts/courier-prime-latin-400-normal.woff2",
+                "weight": 400,
+                "style": "normal"
+              },
+              {
+                "path": "fonts/courier-prime-latin-700-normal.woff2",
+                "weight": 700,
+                "style": "normal"
+              }
+            ]
+          }
+        },
+        "light": {
+          "page": "#F4EDDC",
+          "text": "#1C1A18",
+          "text-muted": "#5A544B",
+          "text-subtle": "#7A7367",
+          "accent": "#B3261E",
+          "accent-hover": "#8F1D17",
+          "accent-tint": "rgba(179, 38, 30, 0.12)",
+          "surface-panel": "#EBE3CF",
+          "surface-control": "#E0D7C0"
+        },
+        "dark": {
+          "page": "#1A1A19",
+          "text": "#E8B04A",
+          "text-muted": "#B8893A",
+          "text-subtle": "#8F6C30",
+          "accent": "#FF7B6E",
+          "accent-hover": "#FF988D",
+          "accent-tint": "rgba(255, 123, 110, 0.16)",
+          "surface-panel": "#232321",
+          "surface-control": "#2D2D2A"
+        }
+      },
+      {
+        "id": "typewriter:code",
+        "name": "Typewriter code",
+        "scope": "code",
+        "light": {
+          "surface-code": "#EBE3CF",
+          "syntax-keyword": "#B3261E",
+          "syntax-string": "#3F5F2A",
+          "syntax-comment": "#7A7367",
+          "syntax-number": "#8A5A00",
+          "syntax-function": "#1F4E6B",
+          "syntax-type": "#6B2E5F",
+          "syntax-variable": "#1C1A18",
+          "syntax-operator": "#5A544B",
+          "syntax-punctuation": "#5A544B",
+          "syntax-tag": "#B3261E",
+          "syntax-attribute": "#8A5A00"
+        },
+        "dark": {
+          "surface-code": "#232321",
+          "syntax-keyword": "#FF7B6E",
+          "syntax-string": "#B5CC8A",
+          "syntax-comment": "#8F6C30",
+          "syntax-number": "#F0D08A",
+          "syntax-function": "#8CC0D8",
+          "syntax-type": "#D69BC4",
+          "syntax-variable": "#E8B04A",
+          "syntax-operator": "#B8893A",
+          "syntax-punctuation": "#B8893A",
+          "syntax-tag": "#FF7B6E",
+          "syntax-attribute": "#F0D08A"
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "id": "nord",
+  "name": "Nord",
+  "version": "1.0.0",
+  "apiVersion": "^0.48.0",
+  "contributes": {
+    "themes": [
+      {
+        "id": "nord:nord",
+        "name": "Nord",
+        "codeTheme": "nord:code",
+        "light": {
+          "page": "#ECEFF4",
+          "text": "#2E3440",
+          "text-muted": "#4C566A",
+          "text-subtle": "#6B7690",
+          "accent": "#5E81AC",
+          "accent-hover": "#4C6F9A",
+          "accent-tint": "rgba(94, 129, 172, 0.12)",
+          "surface-panel": "#E5E9F0",
+          "surface-control": "#D8DEE9"
+        },
+        "dark": {
+          "page": "#2E3440",
+          "text": "#D8DEE9",
+          "text-muted": "#A3AEC2",
+          "text-subtle": "#7B88A1",
+          "accent": "#88C0D0",
+          "accent-hover": "#8FBCBB",
+          "accent-tint": "rgba(136, 192, 208, 0.16)",
+          "surface-panel": "#3B4252",
+          "surface-control": "#434C5E"
+        }
+      },
+      {
+        "id": "nord:code",
+        "name": "Nord code",
+        "scope": "code",
+        "light": {
+          "surface-code": "#E5E9F0",
+          "syntax-keyword": "#5E81AC",
+          "syntax-string": "#5F7A47",
+          "syntax-comment": "#6B7690",
+          "syntax-number": "#8C6A98",
+          "syntax-function": "#3F7F96",
+          "syntax-type": "#4F8585",
+          "syntax-variable": "#2E3440",
+          "syntax-operator": "#4C566A",
+          "syntax-punctuation": "#4C566A",
+          "syntax-tag": "#5E81AC",
+          "syntax-attribute": "#A3791A"
+        },
+        "dark": {
+          "surface-code": "#3B4252",
+          "syntax-keyword": "#81A1C1",
+          "syntax-string": "#A3BE8C",
+          "syntax-comment": "#7B88A1",
+          "syntax-number": "#B48EAD",
+          "syntax-function": "#88C0D0",
+          "syntax-type": "#8FBCBB",
+          "syntax-variable": "#D8DEE9",
+          "syntax-operator": "#A3AEC2",
+          "syntax-punctuation": "#A3AEC2",
+          "syntax-tag": "#81A1C1",
+          "syntax-attribute": "#EBCB8B"
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "id": "solarized",
+  "name": "Solarized",
+  "version": "1.0.0",
+  "apiVersion": "^0.48.0",
+  "contributes": {
+    "themes": [
+      {
+        "id": "solarized:solarized",
+        "name": "Solarized",
+        "codeTheme": "solarized:code",
+        "light": {
+          "page": "#FDF6E3",
+          "text": "#586E75",
+          "text-muted": "#657B83",
+          "text-subtle": "#93A1A1",
+          "accent": "#268BD2",
+          "accent-hover": "#1F72AE",
+          "accent-tint": "rgba(38, 139, 210, 0.12)",
+          "surface-panel": "#EEE8D5",
+          "surface-control": "#E4DDC6"
+        },
+        "dark": {
+          "page": "#002B36",
+          "text": "#93A1A1",
+          "text-muted": "#839496",
+          "text-subtle": "#657B83",
+          "accent": "#268BD2",
+          "accent-hover": "#4BA3E3",
+          "accent-tint": "rgba(38, 139, 210, 0.16)",
+          "surface-panel": "#073642",
+          "surface-control": "#0D4452"
+        }
+      },
+      {
+        "id": "solarized:code",
+        "name": "Solarized code",
+        "scope": "code",
+        "light": {
+          "surface-code": "#EEE8D5",
+          "syntax-keyword": "#859900",
+          "syntax-string": "#2AA198",
+          "syntax-comment": "#93A1A1",
+          "syntax-number": "#D33682",
+          "syntax-function": "#268BD2",
+          "syntax-type": "#B58900",
+          "syntax-variable": "#586E75",
+          "syntax-operator": "#657B83",
+          "syntax-punctuation": "#657B83",
+          "syntax-tag": "#268BD2",
+          "syntax-attribute": "#B58900"
+        },
+        "dark": {
+          "surface-code": "#073642",
+          "syntax-keyword": "#859900",
+          "syntax-string": "#2AA198",
+          "syntax-comment": "#657B83",
+          "syntax-number": "#D33682",
+          "syntax-function": "#268BD2",
+          "syntax-type": "#B58900",
+          "syntax-variable": "#93A1A1",
+          "syntax-operator": "#839496",
+          "syntax-punctuation": "#839496",
+          "syntax-tag": "#268BD2",
+          "syntax-attribute": "#B58900"
+        }
+      }
+    ]
+  }
+}

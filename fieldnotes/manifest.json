@@ -1,7 +1,7 @@
 {
   "id": "fieldnotes",
   "name": "Fieldnotes",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "apiVersion": "^0.48.0",
   "contributes": {
     "themes": [

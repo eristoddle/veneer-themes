@@ -1,0 +1,107 @@
+{
+  "id": "broadsheet",
+  "name": "Broadsheet",
+  "version": "1.0.0",
+  "apiVersion": "^0.48.0",
+  "contributes": {
+    "themes": [
+      {
+        "id": "broadsheet:broadsheet",
+        "name": "Broadsheet",
+        "codeTheme": "broadsheet:code",
+        "fonts": {
+          "body": {
+            "family": "Newsreader",
+            "files": [
+              {
+                "path": "fonts/newsreader-latin-400-normal.woff2",
+                "weight": 400,
+                "style": "normal"
+              },
+              {
+                "path": "fonts/newsreader-latin-400-italic.woff2",
+                "weight": 400,
+                "style": "italic"
+              },
+              {
+                "path": "fonts/newsreader-latin-700-normal.woff2",
+                "weight": 700,
+                "style": "normal"
+              }
+            ]
+          },
+          "heading": {
+            "family": "Old Standard TT",
+            "files": [
+              {
+                "path": "fonts/old-standard-tt-latin-400-normal.woff2",
+                "weight": 400,
+                "style": "normal"
+              },
+              {
+                "path": "fonts/old-standard-tt-latin-700-normal.woff2",
+                "weight": 700,
+                "style": "normal"
+              }
+            ]
+          }
+        },
+        "light": {
+          "page": "#E8E3D5",
+          "text": "#111111",
+          "text-muted": "#47433A",
+          "text-subtle": "#6B665A",
+          "accent": "#8B1A1A",
+          "accent-hover": "#6E1414",
+          "accent-tint": "rgba(139, 26, 26, 0.12)",
+          "surface-panel": "#DED8C8",
+          "surface-control": "#D3CCBA"
+        },
+        "dark": {
+          "page": "#252320",
+          "text": "#E0DBCE",
+          "text-muted": "#AAA498",
+          "text-subtle": "#847E72",
+          "accent": "#E58B7B",
+          "accent-hover": "#EEA597",
+          "accent-tint": "rgba(229, 139, 123, 0.16)",
+          "surface-panel": "#2E2B27",
+          "surface-control": "#38342F"
+        }
+      },
+      {
+        "id": "broadsheet:code",
+        "name": "Broadsheet code",
+        "scope": "code",
+        "light": {
+          "surface-code": "#DED8C8",
+          "syntax-keyword": "#8B1A1A",
+          "syntax-string": "#3F5F2A",
+          "syntax-comment": "#6B665A",
+          "syntax-number": "#8A5A00",
+          "syntax-function": "#1F4E6B",
+          "syntax-type": "#6B2E5F",
+          "syntax-variable": "#111111",
+          "syntax-operator": "#47433A",
+          "syntax-punctuation": "#47433A",
+          "syntax-tag": "#8B1A1A",
+          "syntax-attribute": "#8A5A00"
+        },
+        "dark": {
+          "surface-code": "#2E2B27",
+          "syntax-keyword": "#E58B7B",
+          "syntax-string": "#A9C77E",
+          "syntax-comment": "#847E72",
+          "syntax-number": "#E6BE6A",
+          "syntax-function": "#7FB2C9",
+          "syntax-type": "#C98BB5",
+          "syntax-variable": "#E0DBCE",
+          "syntax-operator": "#AAA498",
+          "syntax-punctuation": "#AAA498",
+          "syntax-tag": "#E58B7B",
+          "syntax-attribute": "#E6BE6A"
+        }
+      }
+    ]
+  }
+}

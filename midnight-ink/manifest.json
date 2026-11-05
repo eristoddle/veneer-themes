@@ -1,0 +1,107 @@
+{
+  "id": "midnight-ink",
+  "name": "Midnight Ink",
+  "version": "1.0.0",
+  "apiVersion": "^0.48.0",
+  "contributes": {
+    "themes": [
+      {
+        "id": "midnight-ink:midnight-ink",
+        "name": "Midnight Ink",
+        "codeTheme": "midnight-ink:code",
+        "fonts": {
+          "body": {
+            "family": "Literata",
+            "files": [
+              {
+                "path": "fonts/literata-latin-400-normal.woff2",
+                "weight": 400,
+                "style": "normal"
+              },
+              {
+                "path": "fonts/literata-latin-400-italic.woff2",
+                "weight": 400,
+                "style": "italic"
+              },
+              {
+                "path": "fonts/literata-latin-700-normal.woff2",
+                "weight": 700,
+                "style": "normal"
+              }
+            ]
+          },
+          "heading": {
+            "family": "Literata",
+            "files": [
+              {
+                "path": "fonts/literata-latin-400-normal.woff2",
+                "weight": 400,
+                "style": "normal"
+              },
+              {
+                "path": "fonts/literata-latin-700-normal.woff2",
+                "weight": 700,
+                "style": "normal"
+              }
+            ]
+          }
+        },
+        "light": {
+          "page": "#F3F5FB",
+          "text": "#1D2540",
+          "text-muted": "#4B5578",
+          "text-subtle": "#6B7596",
+          "accent": "#2B4C9B",
+          "accent-hover": "#1F3A7A",
+          "accent-tint": "rgba(43, 76, 155, 0.12)",
+          "surface-panel": "#E8ECF6",
+          "surface-control": "#DCE2F0"
+        },
+        "dark": {
+          "page": "#12172B",
+          "text": "#EFE6D0",
+          "text-muted": "#AEA894",
+          "text-subtle": "#868272",
+          "accent": "#D9B45A",
+          "accent-hover": "#E6C677",
+          "accent-tint": "rgba(217, 180, 90, 0.16)",
+          "surface-panel": "#1A2038",
+          "surface-control": "#242B47"
+        }
+      },
+      {
+        "id": "midnight-ink:code",
+        "name": "Midnight Ink code",
+        "scope": "code",
+        "light": {
+          "surface-code": "#E8ECF6",
+          "syntax-keyword": "#2B4C9B",
+          "syntax-string": "#2F6B3A",
+          "syntax-comment": "#6B7596",
+          "syntax-number": "#9A5B00",
+          "syntax-function": "#1F5A8A",
+          "syntax-type": "#6B3A8A",
+          "syntax-variable": "#1D2540",
+          "syntax-operator": "#4B5578",
+          "syntax-punctuation": "#4B5578",
+          "syntax-tag": "#2B4C9B",
+          "syntax-attribute": "#9A5B00"
+        },
+        "dark": {
+          "surface-code": "#1A2038",
+          "syntax-keyword": "#D9B45A",
+          "syntax-string": "#A9D08E",
+          "syntax-comment": "#868272",
+          "syntax-number": "#F0C36E",
+          "syntax-function": "#86B8E8",
+          "syntax-type": "#C9A6E8",
+          "syntax-variable": "#EFE6D0",
+          "syntax-operator": "#AEA894",
+          "syntax-punctuation": "#AEA894",
+          "syntax-tag": "#D9B45A",
+          "syntax-attribute": "#F0C36E"
+        }
+      }
+    ]
+  }
+}

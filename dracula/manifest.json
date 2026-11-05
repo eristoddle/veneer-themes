@@ -1,0 +1,70 @@
+{
+  "id": "dracula",
+  "name": "Dracula",
+  "version": "1.0.0",
+  "apiVersion": "^0.48.0",
+  "contributes": {
+    "themes": [
+      {
+        "id": "dracula:dracula",
+        "name": "Dracula",
+        "codeTheme": "dracula:code",
+        "light": {
+          "page": "#F8F8F2",
+          "text": "#282A36",
+          "text-muted": "#4B4F66",
+          "text-subtle": "#6272A4",
+          "accent": "#6F42C1",
+          "accent-hover": "#5A32A3",
+          "accent-tint": "rgba(111, 66, 193, 0.12)",
+          "surface-panel": "#EEEEE6",
+          "surface-control": "#E2E2D8"
+        },
+        "dark": {
+          "page": "#282A36",
+          "text": "#F8F8F2",
+          "text-muted": "#BFC2D1",
+          "text-subtle": "#6272A4",
+          "accent": "#BD93F9",
+          "accent-hover": "#CDAEFB",
+          "accent-tint": "rgba(189, 147, 249, 0.16)",
+          "surface-panel": "#21222C",
+          "surface-control": "#343746"
+        }
+      },
+      {
+        "id": "dracula:code",
+        "name": "Dracula code",
+        "scope": "code",
+        "light": {
+          "surface-code": "#EEEEE6",
+          "syntax-keyword": "#C0267A",
+          "syntax-string": "#7D6B00",
+          "syntax-comment": "#6272A4",
+          "syntax-number": "#6F42C1",
+          "syntax-function": "#1F7A3A",
+          "syntax-type": "#0E7490",
+          "syntax-variable": "#282A36",
+          "syntax-operator": "#4B4F66",
+          "syntax-punctuation": "#4B4F66",
+          "syntax-tag": "#C0267A",
+          "syntax-attribute": "#1F7A3A"
+        },
+        "dark": {
+          "surface-code": "#21222C",
+          "syntax-keyword": "#FF79C6",
+          "syntax-string": "#F1FA8C",
+          "syntax-comment": "#6272A4",
+          "syntax-number": "#BD93F9",
+          "syntax-function": "#50FA7B",
+          "syntax-type": "#8BE9FD",
+          "syntax-variable": "#F8F8F2",
+          "syntax-operator": "#BFC2D1",
+          "syntax-punctuation": "#BFC2D1",
+          "syntax-tag": "#FF79C6",
+          "syntax-attribute": "#50FA7B"
+        }
+      }
+    ]
+  }
+}

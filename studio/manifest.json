@@ -1,0 +1,122 @@
+{
+  "id": "studio",
+  "name": "Studio",
+  "version": "1.0.0",
+  "apiVersion": "^0.48.0",
+  "contributes": {
+    "themes": [
+      {
+        "id": "studio:studio",
+        "name": "Studio",
+        "codeTheme": "studio:code",
+        "fonts": {
+          "body": {
+            "family": "IBM Plex Sans",
+            "files": [
+              {
+                "path": "fonts/ibm-plex-sans-latin-400-normal.woff2",
+                "weight": 400,
+                "style": "normal"
+              },
+              {
+                "path": "fonts/ibm-plex-sans-latin-400-italic.woff2",
+                "weight": 400,
+                "style": "italic"
+              },
+              {
+                "path": "fonts/ibm-plex-sans-latin-700-normal.woff2",
+                "weight": 700,
+                "style": "normal"
+              }
+            ]
+          },
+          "code": {
+            "family": "IBM Plex Mono",
+            "files": [
+              {
+                "path": "fonts/ibm-plex-mono-latin-400-normal.woff2",
+                "weight": 400,
+                "style": "normal"
+              },
+              {
+                "path": "fonts/ibm-plex-mono-latin-700-normal.woff2",
+                "weight": 700,
+                "style": "normal"
+              }
+            ]
+          },
+          "heading": {
+            "family": "IBM Plex Sans",
+            "files": [
+              {
+                "path": "fonts/ibm-plex-sans-latin-400-normal.woff2",
+                "weight": 400,
+                "style": "normal"
+              },
+              {
+                "path": "fonts/ibm-plex-sans-latin-700-normal.woff2",
+                "weight": 700,
+                "style": "normal"
+              }
+            ]
+          }
+        },
+        "light": {
+          "page": "#F7F8F9",
+          "text": "#1F2933",
+          "text-muted": "#52606D",
+          "text-subtle": "#7B8794",
+          "accent": "#0B7A7C",
+          "accent-hover": "#085C5E",
+          "accent-tint": "rgba(11, 122, 124, 0.12)",
+          "surface-panel": "#EDF0F3",
+          "surface-control": "#E1E6EB"
+        },
+        "dark": {
+          "page": "#1E2226",
+          "text": "#E4E7EB",
+          "text-muted": "#A0A9B3",
+          "text-subtle": "#7B8590",
+          "accent": "#3CC4C6",
+          "accent-hover": "#66D4D6",
+          "accent-tint": "rgba(60, 196, 198, 0.16)",
+          "surface-panel": "#262B30",
+          "surface-control": "#30363C"
+        }
+      },
+      {
+        "id": "studio:code",
+        "name": "Studio code",
+        "scope": "code",
+        "light": {
+          "surface-code": "#EDF0F3",
+          "syntax-keyword": "#0B7A7C",
+          "syntax-string": "#2F6B3A",
+          "syntax-comment": "#7B8794",
+          "syntax-number": "#9A5B00",
+          "syntax-function": "#1F5A8A",
+          "syntax-type": "#6B3A8A",
+          "syntax-variable": "#1F2933",
+          "syntax-operator": "#52606D",
+          "syntax-punctuation": "#52606D",
+          "syntax-tag": "#0B7A7C",
+          "syntax-attribute": "#9A5B00"
+        },
+        "dark": {
+          "surface-code": "#262B30",
+          "syntax-keyword": "#3CC4C6",
+          "syntax-string": "#9FD39A",
+          "syntax-comment": "#7B8590",
+          "syntax-number": "#F0C36E",
+          "syntax-function": "#7CC4F0",
+          "syntax-type": "#C9A6F0",
+          "syntax-variable": "#E4E7EB",
+          "syntax-operator": "#A0A9B3",
+          "syntax-punctuation": "#A0A9B3",
+          "syntax-tag": "#3CC4C6",
+          "syntax-attribute": "#F0C36E"
+        }
+      }
+    ]
+  }
+}

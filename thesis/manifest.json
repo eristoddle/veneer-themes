@@ -1,0 +1,107 @@
+{
+  "id": "thesis",
+  "name": "Thesis",
+  "version": "1.0.0",
+  "apiVersion": "^0.48.0",
+  "contributes": {
+    "themes": [
+      {
+        "id": "thesis:thesis",
+        "name": "Thesis",
+        "codeTheme": "thesis:code",
+        "fonts": {
+          "body": {
+            "family": "Source Serif 4",
+            "files": [
+              {
+                "path": "fonts/source-serif-4-latin-400-normal.woff2",
+                "weight": 400,
+                "style": "normal"
+              },
+              {
+                "path": "fonts/source-serif-4-latin-400-italic.woff2",
+                "weight": 400,
+                "style": "italic"
+              },
+              {
+                "path": "fonts/source-serif-4-latin-700-normal.woff2",
+                "weight": 700,
+                "style": "normal"
+              }
+            ]
+          },
+          "heading": {
+            "family": "Source Serif 4",
+            "files": [
+              {
+                "path": "fonts/source-serif-4-latin-400-normal.woff2",
+                "weight": 400,
+                "style": "normal"
+              },
+              {
+                "path": "fonts/source-serif-4-latin-700-normal.woff2",
+                "weight": 700,
+                "style": "normal"
+              }
+            ]
+          }
+        },
+        "light": {
+          "page": "#FFFFFF",
+          "text": "#1B2430",
+          "text-muted": "#4B5565",
+          "text-subtle": "#6B7587",
+          "accent": "#1F3A7A",
+          "accent-hover": "#162B5C",
+          "accent-tint": "rgba(31, 58, 122, 0.12)",
+          "surface-panel": "#F2F4F8",
+          "surface-control": "#E6EAF1"
+        },
+        "dark": {
+          "page": "#151B27",
+          "text": "#E6EAF2",
+          "text-muted": "#A5AFC2",
+          "text-subtle": "#808BA0",
+          "accent": "#8FB0FF",
+          "accent-hover": "#AAC3FF",
+          "accent-tint": "rgba(143, 176, 255, 0.16)",
+          "surface-panel": "#1C2433",
+          "surface-control": "#262F42"
+        }
+      },
+      {
+        "id": "thesis:code",
+        "name": "Thesis code",
+        "scope": "code",
+        "light": {
+          "surface-code": "#F2F4F8",
+          "syntax-keyword": "#1F3A7A",
+          "syntax-string": "#2F6B3A",
+          "syntax-comment": "#6B7587",
+          "syntax-number": "#9A5B00",
+          "syntax-function": "#1F5A8A",
+          "syntax-type": "#6B3A8A",
+          "syntax-variable": "#1B2430",
+          "syntax-operator": "#4B5565",
+          "syntax-punctuation": "#4B5565",
+          "syntax-tag": "#1F3A7A",
+          "syntax-attribute": "#9A5B00"
+        },
+        "dark": {
+          "surface-code": "#1C2433",
+          "syntax-keyword": "#8FB0FF",
+          "syntax-string": "#9FD39A",
+          "syntax-comment": "#808BA0",
+          "syntax-number": "#F0C36E",
+          "syntax-function": "#7CC4F0",
+          "syntax-type": "#C9A6F0",
+          "syntax-variable": "#E6EAF2",
+          "syntax-operator": "#A5AFC2",
+          "syntax-punctuation": "#A5AFC2",
+          "syntax-tag": "#8FB0FF",
+          "syntax-attribute": "#F0C36E"
+        }
+      }
+    ]
+  }
+}

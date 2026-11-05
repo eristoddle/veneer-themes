@@ -1,0 +1,70 @@
+{
+  "id": "gruvbox",
+  "name": "Gruvbox",
+  "version": "1.0.0",
+  "apiVersion": "^0.48.0",
+  "contributes": {
+    "themes": [
+      {
+        "id": "gruvbox:gruvbox",
+        "name": "Gruvbox",
+        "codeTheme": "gruvbox:code",
+        "light": {
+          "page": "#FBF1C7",
+          "text": "#3C3836",
+          "text-muted": "#665C54",
+          "text-subtle": "#7C6F64",
+          "accent": "#AF3A03",
+          "accent-hover": "#8F2E02",
+          "accent-tint": "rgba(175, 58, 3, 0.12)",
+          "surface-panel": "#F2E5BC",
+          "surface-control": "#EBDBB2"
+        },
+        "dark": {
+          "page": "#282828",
+          "text": "#EBDBB2",
+          "text-muted": "#BDAE93",
+          "text-subtle": "#928374",
+          "accent": "#FE8019",
+          "accent-hover": "#FF9D4D",
+          "accent-tint": "rgba(254, 128, 25, 0.16)",
+          "surface-panel": "#32302F",
+          "surface-control": "#3C3836"
+        }
+      },
+      {
+        "id": "gruvbox:code",
+        "name": "Gruvbox code",
+        "scope": "code",
+        "light": {
+          "surface-code": "#F2E5BC",
+          "syntax-keyword": "#9D0006",
+          "syntax-string": "#79740E",
+          "syntax-comment": "#7C6F64",
+          "syntax-number": "#8F3F71",
+          "syntax-function": "#427B58",
+          "syntax-type": "#B57614",
+          "syntax-variable": "#3C3836",
+          "syntax-operator": "#665C54",
+          "syntax-punctuation": "#665C54",
+          "syntax-tag": "#076678",
+          "syntax-attribute": "#AF3A03"
+        },
+        "dark": {
+          "surface-code": "#32302F",
+          "syntax-keyword": "#FB4934",
+          "syntax-string": "#B8BB26",
+          "syntax-comment": "#928374",
+          "syntax-number": "#D3869B",
+          "syntax-function": "#8EC07C",
+          "syntax-type": "#FABD2F",
+          "syntax-variable": "#EBDBB2",
+          "syntax-operator": "#BDAE93",
+          "syntax-punctuation": "#BDAE93",
+          "syntax-tag": "#8EC07C",
+          "syntax-attribute": "#FE8019"
+        }
+      }
+    ]
+  }
+}

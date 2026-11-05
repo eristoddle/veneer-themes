@@ -1,0 +1,8 @@
+Dracula palette
+Source: https://github.com/dracula/dracula-theme
+License: MIT
+Copyright (c) 2016-present Dracula Theme
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this palette and associated documentation files, to deal in it without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies, subject to the above copyright notice and this permission notice being included in all copies or substantial portions. THE PALETTE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND.
+
+This package maps the palette onto Veneer's color tokens. Dark is Dracula. Light mode is Veneer’s adaptation (the official light variant is part of the paid Dracula PRO).
