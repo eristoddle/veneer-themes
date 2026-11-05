@@ -1,0 +1,80 @@
+{
+  "id": "fieldnotes",
+  "name": "Fieldnotes",
+  "version": "1.0.0",
+  "apiVersion": "^0.48.0",
+  "contributes": {
+    "themes": [
+      {
+        "id": "fieldnotes:fieldnotes",
+        "name": "Fieldnotes",
+        "codeTheme": "fieldnotes:code",
+        "fonts": {
+          "body": {
+            "family": "Lora",
+            "files": [
+              { "path": "fonts/lora-latin-400-normal.woff2", "weight": 400, "style": "normal" },
+              { "path": "fonts/lora-latin-400-italic.woff2", "weight": 400, "style": "italic" },
+              { "path": "fonts/lora-latin-700-normal.woff2", "weight": 700, "style": "normal" }
+            ]
+          }
+        },
+        "light": {
+          "page": "#FAF4E6",
+          "text": "#3B2F25",
+          "text-muted": "#6B5B4B",
+          "text-subtle": "#8A7866",
+          "accent": "#9C4A1A",
+          "accent-hover": "#7E3A12",
+          "accent-tint": "rgba(156, 74, 26, 0.12)",
+          "surface-panel": "#F2EAD6",
+          "surface-control": "#EADFC5"
+        },
+        "dark": {
+          "page": "#241C15",
+          "text": "#E9DEC8",
+          "text-muted": "#B8A98F",
+          "text-subtle": "#8F816A",
+          "accent": "#E0955A",
+          "accent-hover": "#EDAA74",
+          "accent-tint": "rgba(224, 149, 90, 0.16)",
+          "surface-panel": "#2D241B",
+          "surface-control": "#382D22"
+        }
+      },
+      {
+        "id": "fieldnotes:code",
+        "name": "Fieldnotes code",
+        "scope": "code",
+        "light": {
+          "surface-code": "#F2EAD6",
+          "syntax-keyword": "#9C4A1A",
+          "syntax-string": "#4F6B2E",
+          "syntax-comment": "#8A7866",
+          "syntax-number": "#8A5A00",
+          "syntax-function": "#2F5D73",
+          "syntax-type": "#7A3E6A",
+          "syntax-variable": "#3B2F25",
+          "syntax-operator": "#6B5B4B",
+          "syntax-punctuation": "#6B5B4B",
+          "syntax-tag": "#9C4A1A",
+          "syntax-attribute": "#8A5A00"
+        },
+        "dark": {
+          "surface-code": "#2D241B",
+          "syntax-keyword": "#E0955A",
+          "syntax-string": "#A9C77E",
+          "syntax-comment": "#8F816A",
+          "syntax-number": "#E6BE6A",
+          "syntax-function": "#7FB2C9",
+          "syntax-type": "#C98BB5",
+          "syntax-variable": "#E9DEC8",
+          "syntax-operator": "#B8A98F",
+          "syntax-punctuation": "#B8A98F",
+          "syntax-tag": "#E0955A",
+          "syntax-attribute": "#E6BE6A"
+        }
+      }
+    ]
+  }
+}
