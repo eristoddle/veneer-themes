@@ -1,0 +1,114 @@
+{
+  "id": "riso",
+  "name": "Riso",
+  "version": "1.0.0",
+  "description": "Risograph print: a cream sheet with the body in deep ink blue, fluorescent pink used sparingly for links, and blue in code, in Work Sans.",
+  "apiVersion": "^0.60.0",
+  "contributes": {
+    "themes": [
+      {
+        "id": "riso:riso",
+        "name": "Riso",
+        "codeTheme": "riso:code",
+        "fonts": {
+          "body": {
+            "family": "Work Sans",
+            "files": [
+              {
+                "path": "fonts/work-sans-latin-400-normal.woff2",
+                "weight": 400,
+                "style": "normal"
+              },
+              {
+                "path": "fonts/work-sans-latin-400-italic.woff2",
+                "weight": 400,
+                "style": "italic"
+              },
+              {
+                "path": "fonts/work-sans-latin-700-normal.woff2",
+                "weight": 700,
+                "style": "normal"
+              }
+            ]
+          },
+          "heading": {
+            "family": "Work Sans",
+            "files": [
+              {
+                "path": "fonts/work-sans-latin-400-normal.woff2",
+                "weight": 400,
+                "style": "normal"
+              },
+              {
+                "path": "fonts/work-sans-latin-700-normal.woff2",
+                "weight": 700,
+                "style": "normal"
+              }
+            ]
+          }
+        },
+        "light": {
+          "page": "#F7F0E0",
+          "text": "#1E2A5A",
+          "text-muted": "#4A5585",
+          "text-subtle": "#6B7399",
+          "accent": "#C8156A",
+          "accent-hover": "#A50F55",
+          "accent-tint": "rgba(200, 21, 106, 0.12)",
+          "surface-panel": "#EFE6D0",
+          "surface-control": "#E5DAC1",
+          "surface-overlay": "#FCF9F3",
+          "rule": "#D4D0CB",
+          "divider": "#E3DED4"
+        },
+        "dark": {
+          "page": "#1B2354",
+          "text": "#F7EFDC",
+          "text-muted": "#BFC3E0",
+          "text-subtle": "#8E95C2",
+          "accent": "#FF5FA2",
+          "accent-hover": "#FF86B9",
+          "accent-tint": "rgba(255, 95, 162, 0.16)",
+          "surface-panel": "#222B63",
+          "surface-control": "#2B3572",
+          "surface-overlay": "#2D366B",
+          "rule": "#3E446A",
+          "divider": "#2F3560"
+        }
+      },
+      {
+        "id": "riso:code",
+        "name": "Riso code",
+        "scope": "code",
+        "light": {
+          "surface-code": "#EFE6D0",
+          "syntax-keyword": "#C5156A",
+          "syntax-string": "#1F6B5A",
+          "syntax-comment": "#6B7399",
+          "syntax-number": "#AD4902",
+          "syntax-function": "#0057D9",
+          "syntax-type": "#5A3FA0",
+          "syntax-variable": "#1E2A5A",
+          "syntax-operator": "#4A5585",
+          "syntax-punctuation": "#4A5585",
+          "syntax-tag": "#C5156A",
+          "syntax-attribute": "#AD4902"
+        },
+        "dark": {
+          "surface-code": "#222B63",
+          "syntax-keyword": "#FF7FB6",
+          "syntax-string": "#8FE0C0",
+          "syntax-comment": "#8E95C2",
+          "syntax-number": "#FFC27A",
+          "syntax-function": "#7FA8FF",
+          "syntax-type": "#C8B4FF",
+          "syntax-variable": "#F7EFDC",
+          "syntax-operator": "#BFC3E0",
+          "syntax-punctuation": "#BFC3E0",
+          "syntax-tag": "#FF7FB6",
+          "syntax-attribute": "#FFC27A"
+        }
+      }
+    ]
+  }
+}

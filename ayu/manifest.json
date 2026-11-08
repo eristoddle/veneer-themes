@@ -1,0 +1,77 @@
+{
+  "id": "ayu",
+  "name": "Ayu",
+  "version": "1.0.0",
+  "description": "A port of Ayu: Light for light and Mirage for dark, with its warm orange and soft blue. A port with a matching code theme.",
+  "apiVersion": "^0.60.0",
+  "contributes": {
+    "themes": [
+      {
+        "id": "ayu:ayu",
+        "name": "Ayu",
+        "codeTheme": "ayu:code",
+        "light": {
+          "page": "#FCFCFC",
+          "text": "#5C6166",
+          "text-muted": "#686E73",
+          "text-subtle": "#7D838A",
+          "accent": "#A36721",
+          "accent-hover": "#9E5400",
+          "accent-tint": "rgba(163, 103, 33, 0.12)",
+          "surface-panel": "#F3F4F5",
+          "surface-control": "#E8E9EB",
+          "surface-overlay": "#FEFEFE",
+          "rule": "#E2E3E4",
+          "divider": "#EEEEEF"
+        },
+        "dark": {
+          "page": "#1F2430",
+          "text": "#CCCAC2",
+          "text-muted": "#A8A6A0",
+          "text-subtle": "#8A9199",
+          "accent": "#FFCC66",
+          "accent-hover": "#FFD98A",
+          "accent-tint": "rgba(255, 204, 102, 0.16)",
+          "surface-panel": "#232834",
+          "surface-control": "#2D3441",
+          "surface-overlay": "#2E333E",
+          "rule": "#3B3F47",
+          "divider": "#2F333D"
+        }
+      },
+      {
+        "id": "ayu:code",
+        "name": "Ayu code",
+        "scope": "code",
+        "light": {
+          "surface-code": "#F3F4F5",
+          "syntax-keyword": "#9B6338",
+          "syntax-string": "#5E7916",
+          "syntax-comment": "#7D838A",
+          "syntax-number": "#855FAD",
+          "syntax-function": "#896B2F",
+          "syntax-type": "#3375A6",
+          "syntax-variable": "#5C6166",
+          "syntax-operator": "#686E73",
+          "syntax-punctuation": "#686E73",
+          "syntax-tag": "#9B6338",
+          "syntax-attribute": "#896B2F"
+        },
+        "dark": {
+          "surface-code": "#232834",
+          "syntax-keyword": "#FFA759",
+          "syntax-string": "#D5FF80",
+          "syntax-comment": "#8A9199",
+          "syntax-number": "#DFBFFF",
+          "syntax-function": "#FFD173",
+          "syntax-type": "#73D0FF",
+          "syntax-variable": "#CCCAC2",
+          "syntax-operator": "#A8A6A0",
+          "syntax-punctuation": "#A8A6A0",
+          "syntax-tag": "#FFA759",
+          "syntax-attribute": "#FFD173"
+        }
+      }
+    ]
+  }
+}

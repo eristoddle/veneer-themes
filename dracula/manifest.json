@@ -1,8 +1,9 @@
 {
   "id": "dracula",
   "name": "Dracula",
-  "version": "1.0.0",
-  "apiVersion": "^0.48.0",
+  "version": "1.0.1",
+  "description": "The well-known dark palette: deep indigo with purple, pink, and green. A port with a matching code theme.",
+  "apiVersion": "^0.60.0",
   "contributes": {
     "themes": [
       {
@@ -18,7 +19,10 @@
           "accent-hover": "#5A32A3",
           "accent-tint": "rgba(111, 66, 193, 0.12)",
           "surface-panel": "#EEEEE6",
-          "surface-control": "#E2E2D8"
+          "surface-control": "#E2E2D8",
+          "surface-overlay": "#FCFCFA",
+          "rule": "#D7D7D4",
+          "divider": "#E5E5E1"
         },
         "dark": {
           "page": "#282A36",
@@ -29,7 +33,10 @@
           "accent-hover": "#CDAEFB",
           "accent-tint": "rgba(189, 147, 249, 0.16)",
           "surface-panel": "#21222C",
-          "surface-control": "#343746"
+          "surface-control": "#343746",
+          "surface-overlay": "#2C2D37",
+          "rule": "#494B54",
+          "divider": "#3B3D47"
         }
       },
       {

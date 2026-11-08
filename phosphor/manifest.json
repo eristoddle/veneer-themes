@@ -1,0 +1,129 @@
+{
+  "id": "phosphor",
+  "name": "Phosphor",
+  "version": "1.0.0",
+  "description": "An old terminal: a black page, phosphor-green text, and amber links, in JetBrains Mono throughout.",
+  "apiVersion": "^0.60.0",
+  "contributes": {
+    "themes": [
+      {
+        "id": "phosphor:phosphor",
+        "name": "Phosphor",
+        "codeTheme": "phosphor:code",
+        "fonts": {
+          "body": {
+            "family": "JetBrains Mono",
+            "files": [
+              {
+                "path": "fonts/jetbrains-mono-latin-400-normal.woff2",
+                "weight": 400,
+                "style": "normal"
+              },
+              {
+                "path": "fonts/jetbrains-mono-latin-400-italic.woff2",
+                "weight": 400,
+                "style": "italic"
+              },
+              {
+                "path": "fonts/jetbrains-mono-latin-700-normal.woff2",
+                "weight": 700,
+                "style": "normal"
+              }
+            ]
+          },
+          "heading": {
+            "family": "JetBrains Mono",
+            "files": [
+              {
+                "path": "fonts/jetbrains-mono-latin-400-normal.woff2",
+                "weight": 400,
+                "style": "normal"
+              },
+              {
+                "path": "fonts/jetbrains-mono-latin-700-normal.woff2",
+                "weight": 700,
+                "style": "normal"
+              }
+            ]
+          },
+          "code": {
+            "family": "JetBrains Mono",
+            "files": [
+              {
+                "path": "fonts/jetbrains-mono-latin-400-normal.woff2",
+                "weight": 400,
+                "style": "normal"
+              },
+              {
+                "path": "fonts/jetbrains-mono-latin-700-normal.woff2",
+                "weight": 700,
+                "style": "normal"
+              }
+            ]
+          }
+        },
+        "light": {
+          "page": "#E4EBE2",
+          "text": "#0F3A1C",
+          "text-muted": "#2F5B3A",
+          "text-subtle": "#4E7558",
+          "accent": "#8A5300",
+          "accent-hover": "#6B4000",
+          "accent-tint": "rgba(138, 83, 0, 0.12)",
+          "surface-panel": "#D8E2D5",
+          "surface-control": "#CBD8C8",
+          "surface-overlay": "#F4F7F3",
+          "rule": "#C2CFC2",
+          "divider": "#D1DBD0"
+        },
+        "dark": {
+          "page": "#060A06",
+          "text": "#46E07A",
+          "text-muted": "#2FBB5E",
+          "text-subtle": "#238A47",
+          "accent": "#FFB000",
+          "accent-hover": "#FFC640",
+          "accent-tint": "rgba(255, 176, 0, 0.16)",
+          "surface-panel": "#0C140D",
+          "surface-control": "#142016",
+          "surface-overlay": "#182019",
+          "rule": "#102C19",
+          "divider": "#0C1D10"
+        }
+      },
+      {
+        "id": "phosphor:code",
+        "name": "Phosphor code",
+        "scope": "code",
+        "light": {
+          "surface-code": "#D8E2D5",
+          "syntax-keyword": "#8A5300",
+          "syntax-string": "#1F6B35",
+          "syntax-comment": "#4E7558",
+          "syntax-number": "#9A4A00",
+          "syntax-function": "#0F5A6B",
+          "syntax-type": "#4A4A9A",
+          "syntax-variable": "#0F3A1C",
+          "syntax-operator": "#2F5B3A",
+          "syntax-punctuation": "#2F5B3A",
+          "syntax-tag": "#8A5300",
+          "syntax-attribute": "#9A4A00"
+        },
+        "dark": {
+          "surface-code": "#0C140D",
+          "syntax-keyword": "#FFB000",
+          "syntax-string": "#7AF0A0",
+          "syntax-comment": "#238A47",
+          "syntax-number": "#FFD060",
+          "syntax-function": "#46E07A",
+          "syntax-type": "#5FE0C8",
+          "syntax-variable": "#46E07A",
+          "syntax-operator": "#2FBB5E",
+          "syntax-punctuation": "#2FBB5E",
+          "syntax-tag": "#FFB000",
+          "syntax-attribute": "#FFD060"
+        }
+      }
+    ]
+  }
+}

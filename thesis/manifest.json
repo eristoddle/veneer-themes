@@ -1,8 +1,9 @@
 {
   "id": "thesis",
   "name": "Thesis",
-  "version": "1.0.0",
-  "apiVersion": "^0.48.0",
+  "version": "1.0.1",
+  "description": "Bright white and calm, navy accents, set in Source Serif 4.",
+  "apiVersion": "^0.60.0",
   "contributes": {
     "themes": [
       {
@@ -55,7 +56,10 @@
           "accent-hover": "#162B5C",
           "accent-tint": "rgba(31, 58, 122, 0.12)",
           "surface-panel": "#F2F4F8",
-          "surface-control": "#E6EAF1"
+          "surface-control": "#E6EAF1",
+          "surface-overlay": "#FFFFFF",
+          "rule": "#DBDCDE",
+          "divider": "#EAEBEC"
         },
         "dark": {
           "page": "#151B27",
@@ -66,7 +70,10 @@
           "accent-hover": "#AAC3FF",
           "accent-tint": "rgba(143, 176, 255, 0.16)",
           "surface-panel": "#1C2433",
-          "surface-control": "#262F42"
+          "surface-control": "#262F42",
+          "surface-overlay": "#272F3D",
+          "rule": "#363C47",
+          "divider": "#282E39"
         }
       },
       {

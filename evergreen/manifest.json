@@ -1,0 +1,77 @@
+{
+  "id": "evergreen",
+  "name": "Evergreen",
+  "version": "1.0.0",
+  "description": "The Everforest palette: warm green-greys easy on the eyes. A port with a matching code theme.",
+  "apiVersion": "^0.60.0",
+  "contributes": {
+    "themes": [
+      {
+        "id": "evergreen:evergreen",
+        "name": "Evergreen",
+        "codeTheme": "evergreen:code",
+        "light": {
+          "page": "#FDF6E3",
+          "text": "#5C6A72",
+          "text-muted": "#64737C",
+          "text-subtle": "#829181",
+          "accent": "#5F7A00",
+          "accent-hover": "#4A6000",
+          "accent-tint": "rgba(95, 122, 0, 0.12)",
+          "surface-panel": "#F4F0D9",
+          "surface-control": "#EFEBD4",
+          "surface-overlay": "#FEFBF4",
+          "rule": "#E3E0D1",
+          "divider": "#EFE9D9"
+        },
+        "dark": {
+          "page": "#2D353B",
+          "text": "#D3C6AA",
+          "text-muted": "#A8A08A",
+          "text-subtle": "#859289",
+          "accent": "#A7C080",
+          "accent-hover": "#BCD197",
+          "accent-tint": "rgba(167, 192, 128, 0.16)",
+          "surface-panel": "#343F44",
+          "surface-control": "#3D484D",
+          "surface-overlay": "#3E494D",
+          "rule": "#484C4D",
+          "divider": "#3C4245"
+        }
+      },
+      {
+        "id": "evergreen:code",
+        "name": "Evergreen code",
+        "scope": "code",
+        "light": {
+          "surface-code": "#F4F0D9",
+          "syntax-keyword": "#C23E3B",
+          "syntax-string": "#5E7522",
+          "syntax-comment": "#7F8E80",
+          "syntax-number": "#84684A",
+          "syntax-function": "#4A728A",
+          "syntax-type": "#45766C",
+          "syntax-variable": "#5C6A72",
+          "syntax-operator": "#64737C",
+          "syntax-punctuation": "#64737C",
+          "syntax-tag": "#C23E3B",
+          "syntax-attribute": "#856A0B"
+        },
+        "dark": {
+          "surface-code": "#343F44",
+          "syntax-keyword": "#E0948D",
+          "syntax-string": "#A7C080",
+          "syntax-comment": "#859289",
+          "syntax-number": "#E69875",
+          "syntax-function": "#7FBBB3",
+          "syntax-type": "#83C092",
+          "syntax-variable": "#D3C6AA",
+          "syntax-operator": "#A8A08A",
+          "syntax-punctuation": "#A8A08A",
+          "syntax-tag": "#E0948D",
+          "syntax-attribute": "#DBBC7F"
+        }
+      }
+    ]
+  }
+}

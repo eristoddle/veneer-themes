@@ -1,0 +1,77 @@
+{
+  "id": "kanagawa",
+  "name": "Kanagawa",
+  "version": "1.0.0",
+  "description": "A port of Kanagawa, after Hokusai’s wave: Lotus for light and Wave for dark, in muted inks and silk colors. A port with a matching code theme.",
+  "apiVersion": "^0.60.0",
+  "contributes": {
+    "themes": [
+      {
+        "id": "kanagawa:kanagawa",
+        "name": "Kanagawa",
+        "codeTheme": "kanagawa:code",
+        "light": {
+          "page": "#F2ECBC",
+          "text": "#545464",
+          "text-muted": "#5D5D70",
+          "text-subtle": "#767680",
+          "accent": "#4D699B",
+          "accent-hover": "#3A5280",
+          "accent-tint": "rgba(77, 105, 155, 0.12)",
+          "surface-panel": "#E5DDB0",
+          "surface-control": "#DCD5AC",
+          "surface-overlay": "#FAF7E4",
+          "rule": "#D9D4AE",
+          "divider": "#E4DEB4"
+        },
+        "dark": {
+          "page": "#1F1F28",
+          "text": "#DCD7BA",
+          "text-muted": "#C8C093",
+          "text-subtle": "#8A8980",
+          "accent": "#7E9CD8",
+          "accent-hover": "#98B2E6",
+          "accent-tint": "rgba(126, 156, 216, 0.16)",
+          "surface-panel": "#2A2A37",
+          "surface-control": "#363646",
+          "surface-overlay": "#353541",
+          "rule": "#3D3C3F",
+          "divider": "#303035"
+        }
+      },
+      {
+        "id": "kanagawa:code",
+        "name": "Kanagawa code",
+        "scope": "code",
+        "light": {
+          "surface-code": "#E5DDB0",
+          "syntax-keyword": "#624C83",
+          "syntax-string": "#5B625E",
+          "syntax-comment": "#767680",
+          "syntax-number": "#765B48",
+          "syntax-function": "#506186",
+          "syntax-type": "#56636A",
+          "syntax-variable": "#545464",
+          "syntax-operator": "#5D5D70",
+          "syntax-punctuation": "#5D5D70",
+          "syntax-tag": "#97485A",
+          "syntax-attribute": "#646153"
+        },
+        "dark": {
+          "surface-code": "#2A2A37",
+          "syntax-keyword": "#9E8AB8",
+          "syntax-string": "#98BB6C",
+          "syntax-comment": "#8A8980",
+          "syntax-number": "#FFA066",
+          "syntax-function": "#7E9CD8",
+          "syntax-type": "#7AA89F",
+          "syntax-variable": "#DCD7BA",
+          "syntax-operator": "#C8C093",
+          "syntax-punctuation": "#C8C093",
+          "syntax-tag": "#CD7C73",
+          "syntax-attribute": "#E6C384"
+        }
+      }
+    ]
+  }
+}

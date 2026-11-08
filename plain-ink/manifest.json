@@ -1,0 +1,77 @@
+{
+  "id": "plain-ink",
+  "name": "Plain Ink",
+  "version": "1.0.0",
+  "description": "The Flexoki palette: inky colors made for reading and writing. A port with a matching code theme.",
+  "apiVersion": "^0.60.0",
+  "contributes": {
+    "themes": [
+      {
+        "id": "plain-ink:plain-ink",
+        "name": "Plain Ink",
+        "codeTheme": "plain-ink:code",
+        "light": {
+          "page": "#FFFCF0",
+          "text": "#100F0F",
+          "text-muted": "#6F6E69",
+          "text-subtle": "#878580",
+          "accent": "#205EA6",
+          "accent-hover": "#1A4B87",
+          "accent-tint": "rgba(32, 94, 166, 0.12)",
+          "surface-panel": "#F2F0E5",
+          "surface-control": "#E6E4D9",
+          "surface-overlay": "#FFFEF9",
+          "rule": "#D9D6CC",
+          "divider": "#E9E7DC"
+        },
+        "dark": {
+          "page": "#100F0F",
+          "text": "#CECDC3",
+          "text-muted": "#9F9D96",
+          "text-subtle": "#878580",
+          "accent": "#4385BE",
+          "accent-hover": "#5E9ACB",
+          "accent-tint": "rgba(67, 133, 190, 0.16)",
+          "surface-panel": "#1C1B1A",
+          "surface-control": "#282726",
+          "surface-overlay": "#272625",
+          "rule": "#2E2D2C",
+          "divider": "#21201F"
+        }
+      },
+      {
+        "id": "plain-ink:code",
+        "name": "Plain Ink code",
+        "scope": "code",
+        "light": {
+          "surface-code": "#F2F0E5",
+          "syntax-keyword": "#5E409D",
+          "syntax-string": "#5D750B",
+          "syntax-comment": "#878580",
+          "syntax-number": "#B24E15",
+          "syntax-function": "#205EA6",
+          "syntax-type": "#227770",
+          "syntax-variable": "#100F0F",
+          "syntax-operator": "#6F6E69",
+          "syntax-punctuation": "#6F6E69",
+          "syntax-tag": "#AF3029",
+          "syntax-attribute": "#876704"
+        },
+        "dark": {
+          "surface-code": "#1C1B1A",
+          "syntax-keyword": "#8B7EC8",
+          "syntax-string": "#879A39",
+          "syntax-comment": "#878580",
+          "syntax-number": "#DA702C",
+          "syntax-function": "#4988BE",
+          "syntax-type": "#3AA99F",
+          "syntax-variable": "#CECDC3",
+          "syntax-operator": "#9F9D96",
+          "syntax-punctuation": "#9F9D96",
+          "syntax-tag": "#D16156",
+          "syntax-attribute": "#D0A215"
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,77 @@
+{
+  "id": "night-owl",
+  "name": "Night Owl",
+  "version": "1.0.0",
+  "description": "A port of Night Owl: Light Owl for light and Night Owl for dark, a palette made for late hours and accessibility. A port with a matching code theme.",
+  "apiVersion": "^0.60.0",
+  "contributes": {
+    "themes": [
+      {
+        "id": "night-owl:night-owl",
+        "name": "Night Owl",
+        "codeTheme": "night-owl:code",
+        "light": {
+          "page": "#FBFBFB",
+          "text": "#403F53",
+          "text-muted": "#5A5970",
+          "text-subtle": "#6E7388",
+          "accent": "#4771C9",
+          "accent-hover": "#325BB0",
+          "accent-tint": "rgba(71, 113, 201, 0.12)",
+          "surface-panel": "#F0F0F0",
+          "surface-control": "#E4E4E4",
+          "surface-overlay": "#FDFDFD",
+          "rule": "#DDDDE0",
+          "divider": "#EAEAEC"
+        },
+        "dark": {
+          "page": "#011627",
+          "text": "#D6DEEB",
+          "text-muted": "#A5B6CE",
+          "text-subtle": "#7A93A8",
+          "accent": "#82AAFF",
+          "accent-hover": "#9CBCFF",
+          "accent-tint": "rgba(130, 170, 255, 0.16)",
+          "surface-panel": "#0B2942",
+          "surface-control": "#13344F",
+          "surface-overlay": "#17344B",
+          "rule": "#233646",
+          "divider": "#142839"
+        }
+      },
+      {
+        "id": "night-owl:code",
+        "name": "Night Owl code",
+        "scope": "code",
+        "light": {
+          "surface-code": "#F0F0F0",
+          "syntax-keyword": "#954BBF",
+          "syntax-string": "#34767A",
+          "syntax-comment": "#6E7388",
+          "syntax-number": "#AA0982",
+          "syntax-function": "#466BBC",
+          "syntax-type": "#1E7883",
+          "syntax-variable": "#403F53",
+          "syntax-operator": "#5A5970",
+          "syntax-punctuation": "#5A5970",
+          "syntax-tag": "#954BBF",
+          "syntax-attribute": "#466BBC"
+        },
+        "dark": {
+          "surface-code": "#0B2942",
+          "syntax-keyword": "#C792EA",
+          "syntax-string": "#ADDB67",
+          "syntax-comment": "#7A93A8",
+          "syntax-number": "#F78C6C",
+          "syntax-function": "#82AAFF",
+          "syntax-type": "#7FDBCA",
+          "syntax-variable": "#D6DEEB",
+          "syntax-operator": "#A5B6CE",
+          "syntax-punctuation": "#A5B6CE",
+          "syntax-tag": "#7FDBCA",
+          "syntax-attribute": "#ECC48D"
+        }
+      }
+    ]
+  }
+}

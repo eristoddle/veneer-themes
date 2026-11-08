@@ -1,8 +1,9 @@
 {
   "id": "gruvbox",
   "name": "Gruvbox",
-  "version": "1.0.0",
-  "apiVersion": "^0.48.0",
+  "version": "1.0.1",
+  "description": "Retro groove: warm brown-greys, cream, and orange. A port with a matching code theme.",
+  "apiVersion": "^0.60.0",
   "contributes": {
     "themes": [
       {
@@ -18,7 +19,10 @@
           "accent-hover": "#8F2E02",
           "accent-tint": "rgba(175, 58, 3, 0.12)",
           "surface-panel": "#F2E5BC",
-          "surface-control": "#EBDBB2"
+          "surface-control": "#EBDBB2",
+          "surface-overlay": "#FDF9E9",
+          "rule": "#DCD3B0",
+          "divider": "#EAE0BA"
         },
         "dark": {
           "page": "#282828",
@@ -29,7 +33,10 @@
           "accent-hover": "#FF9D4D",
           "accent-tint": "rgba(254, 128, 25, 0.16)",
           "surface-panel": "#32302F",
-          "surface-control": "#3C3836"
+          "surface-control": "#3C3836",
+          "surface-overlay": "#3C3A39",
+          "rule": "#47453E",
+          "divider": "#3A3834"
         }
       },
       {

@@ -1,0 +1,77 @@
+{
+  "id": "primer",
+  "name": "Primer",
+  "version": "1.0.0",
+  "description": "A port of GitHub’s Primer colors, light and dark: neutral greys with a clear blue. A port with a matching code theme.",
+  "apiVersion": "^0.60.0",
+  "contributes": {
+    "themes": [
+      {
+        "id": "primer:primer",
+        "name": "Primer",
+        "codeTheme": "primer:code",
+        "light": {
+          "page": "#FFFFFF",
+          "text": "#1F2328",
+          "text-muted": "#59636E",
+          "text-subtle": "#6E7781",
+          "accent": "#0969DA",
+          "accent-hover": "#0550AE",
+          "accent-tint": "rgba(9, 105, 218, 0.12)",
+          "surface-panel": "#F6F8FA",
+          "surface-control": "#EAEEF2",
+          "surface-overlay": "#FFFFFF",
+          "rule": "#DBDCDD",
+          "divider": "#EBEBEC"
+        },
+        "dark": {
+          "page": "#0D1117",
+          "text": "#E6EDF3",
+          "text-muted": "#9198A1",
+          "text-subtle": "#848D97",
+          "accent": "#4493F8",
+          "accent-hover": "#79C0FF",
+          "accent-tint": "rgba(68, 147, 248, 0.16)",
+          "surface-panel": "#151B23",
+          "surface-control": "#212830",
+          "surface-overlay": "#21262E",
+          "rule": "#30343A",
+          "divider": "#21252B"
+        }
+      },
+      {
+        "id": "primer:code",
+        "name": "Primer code",
+        "scope": "code",
+        "light": {
+          "surface-code": "#F6F8FA",
+          "syntax-keyword": "#CF222E",
+          "syntax-string": "#0A3069",
+          "syntax-comment": "#6E7781",
+          "syntax-number": "#0550AE",
+          "syntax-function": "#8250DF",
+          "syntax-type": "#953800",
+          "syntax-variable": "#1F2328",
+          "syntax-operator": "#59636E",
+          "syntax-punctuation": "#59636E",
+          "syntax-tag": "#116329",
+          "syntax-attribute": "#0550AE"
+        },
+        "dark": {
+          "surface-code": "#151B23",
+          "syntax-keyword": "#FF7B72",
+          "syntax-string": "#A5D6FF",
+          "syntax-comment": "#8B949E",
+          "syntax-number": "#79C0FF",
+          "syntax-function": "#D2A8FF",
+          "syntax-type": "#FFA657",
+          "syntax-variable": "#E6EDF3",
+          "syntax-operator": "#9198A1",
+          "syntax-punctuation": "#9198A1",
+          "syntax-tag": "#7EE787",
+          "syntax-attribute": "#79C0FF"
+        }
+      }
+    ]
+  }
+}

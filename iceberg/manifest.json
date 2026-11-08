@@ -1,0 +1,77 @@
+{
+  "id": "iceberg",
+  "name": "Iceberg",
+  "version": "1.0.0",
+  "description": "A port of Iceberg, a bluish dark-and-light palette easy on the eyes. A port with a matching code theme.",
+  "apiVersion": "^0.60.0",
+  "contributes": {
+    "themes": [
+      {
+        "id": "iceberg:iceberg",
+        "name": "Iceberg",
+        "codeTheme": "iceberg:code",
+        "light": {
+          "page": "#E8E9EC",
+          "text": "#33374C",
+          "text-muted": "#4A5068",
+          "text-subtle": "#6A7089",
+          "accent": "#2D539E",
+          "accent-hover": "#223F7A",
+          "accent-tint": "rgba(45, 83, 158, 0.12)",
+          "surface-panel": "#DCDFE7",
+          "surface-control": "#CDD1DE",
+          "surface-overlay": "#F6F6F7",
+          "rule": "#CBCDD2",
+          "divider": "#D8D9DE"
+        },
+        "dark": {
+          "page": "#161821",
+          "text": "#C6C8D1",
+          "text-muted": "#A0A4B8",
+          "text-subtle": "#8389A3",
+          "accent": "#84A0C6",
+          "accent-hover": "#9DB5D6",
+          "accent-tint": "rgba(132, 160, 198, 0.16)",
+          "surface-panel": "#1E2132",
+          "surface-control": "#272C42",
+          "surface-overlay": "#292C3C",
+          "rule": "#32343D",
+          "divider": "#262831"
+        }
+      },
+      {
+        "id": "iceberg:code",
+        "name": "Iceberg code",
+        "scope": "code",
+        "light": {
+          "surface-code": "#DCDFE7",
+          "syntax-keyword": "#6D54A5",
+          "syntax-string": "#516943",
+          "syntax-comment": "#6A7089",
+          "syntax-number": "#825742",
+          "syntax-function": "#2D539E",
+          "syntax-type": "#3A6684",
+          "syntax-variable": "#33374C",
+          "syntax-operator": "#4A5068",
+          "syntax-punctuation": "#4A5068",
+          "syntax-tag": "#98486A",
+          "syntax-attribute": "#825742"
+        },
+        "dark": {
+          "surface-code": "#1E2132",
+          "syntax-keyword": "#A093C7",
+          "syntax-string": "#B4BE82",
+          "syntax-comment": "#8389A3",
+          "syntax-number": "#E2A478",
+          "syntax-function": "#84A0C6",
+          "syntax-type": "#89B8C2",
+          "syntax-variable": "#C6C8D1",
+          "syntax-operator": "#A0A4B8",
+          "syntax-punctuation": "#A0A4B8",
+          "syntax-tag": "#E27878",
+          "syntax-attribute": "#E2A478"
+        }
+      }
+    ]
+  }
+}

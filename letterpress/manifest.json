@@ -1,0 +1,114 @@
+{
+  "id": "letterpress",
+  "name": "Letterpress",
+  "version": "1.0.0",
+  "description": "Heavy cotton paper: a warm grey page, deep red accent, and inked headings in Alegreya small caps, with Alegreya for the body.",
+  "apiVersion": "^0.60.0",
+  "contributes": {
+    "themes": [
+      {
+        "id": "letterpress:letterpress",
+        "name": "Letterpress",
+        "codeTheme": "letterpress:code",
+        "fonts": {
+          "body": {
+            "family": "Alegreya",
+            "files": [
+              {
+                "path": "fonts/alegreya-latin-400-normal.woff2",
+                "weight": 400,
+                "style": "normal"
+              },
+              {
+                "path": "fonts/alegreya-latin-400-italic.woff2",
+                "weight": 400,
+                "style": "italic"
+              },
+              {
+                "path": "fonts/alegreya-latin-700-normal.woff2",
+                "weight": 700,
+                "style": "normal"
+              }
+            ]
+          },
+          "heading": {
+            "family": "Alegreya SC",
+            "files": [
+              {
+                "path": "fonts/alegreya-sc-latin-400-normal.woff2",
+                "weight": 400,
+                "style": "normal"
+              },
+              {
+                "path": "fonts/alegreya-sc-latin-700-normal.woff2",
+                "weight": 700,
+                "style": "normal"
+              }
+            ]
+          }
+        },
+        "light": {
+          "page": "#E9E5DC",
+          "text": "#1F1D1A",
+          "text-muted": "#4F4B44",
+          "text-subtle": "#706B62",
+          "accent": "#9B1C23",
+          "accent-hover": "#78141A",
+          "accent-tint": "rgba(155, 28, 35, 0.12)",
+          "surface-panel": "#DFDAD0",
+          "surface-control": "#D4CEC2",
+          "surface-overlay": "#F6F5F1",
+          "rule": "#C9C5BD",
+          "divider": "#D7D3CB"
+        },
+        "dark": {
+          "page": "#2A2826",
+          "text": "#DEDAD0",
+          "text-muted": "#B0AB9F",
+          "text-subtle": "#8A857A",
+          "accent": "#E07A74",
+          "accent-hover": "#EC948F",
+          "accent-tint": "rgba(224, 122, 116, 0.16)",
+          "surface-panel": "#32302D",
+          "surface-control": "#3C3A36",
+          "surface-overlay": "#3C3A38",
+          "rule": "#474441",
+          "divider": "#3A3835"
+        }
+      },
+      {
+        "id": "letterpress:code",
+        "name": "Letterpress code",
+        "scope": "code",
+        "light": {
+          "surface-code": "#DFDAD0",
+          "syntax-keyword": "#9B1C23",
+          "syntax-string": "#3F5F2A",
+          "syntax-comment": "#706B62",
+          "syntax-number": "#845602",
+          "syntax-function": "#2A4A6B",
+          "syntax-type": "#6B3A5F",
+          "syntax-variable": "#1F1D1A",
+          "syntax-operator": "#4F4B44",
+          "syntax-punctuation": "#4F4B44",
+          "syntax-tag": "#9B1C23",
+          "syntax-attribute": "#845602"
+        },
+        "dark": {
+          "surface-code": "#32302D",
+          "syntax-keyword": "#E8908A",
+          "syntax-string": "#A9C77E",
+          "syntax-comment": "#8A857A",
+          "syntax-number": "#E6BE6A",
+          "syntax-function": "#8FB4CC",
+          "syntax-type": "#C99BBB",
+          "syntax-variable": "#DEDAD0",
+          "syntax-operator": "#B0AB9F",
+          "syntax-punctuation": "#B0AB9F",
+          "syntax-tag": "#E8908A",
+          "syntax-attribute": "#E6BE6A"
+        }
+      }
+    ]
+  }
+}

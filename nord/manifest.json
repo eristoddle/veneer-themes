@@ -1,8 +1,9 @@
 {
   "id": "nord",
   "name": "Nord",
-  "version": "1.0.0",
-  "apiVersion": "^0.48.0",
+  "version": "1.0.1",
+  "description": "The arctic palette: cool blue-greys with a frost-blue accent. A port with a matching code theme.",
+  "apiVersion": "^0.60.0",
   "contributes": {
     "themes": [
       {
@@ -18,7 +19,10 @@
           "accent-hover": "#4C6F9A",
           "accent-tint": "rgba(94, 129, 172, 0.12)",
           "surface-panel": "#E5E9F0",
-          "surface-control": "#D8DEE9"
+          "surface-control": "#D8DEE9",
+          "surface-overlay": "#F7F9FB",
+          "rule": "#CED1D7",
+          "divider": "#DBDEE4"
         },
         "dark": {
           "page": "#2E3440",
@@ -29,7 +33,10 @@
           "accent-hover": "#8FBCBB",
           "accent-tint": "rgba(136, 192, 208, 0.16)",
           "surface-panel": "#3B4252",
-          "surface-control": "#434C5E"
+          "surface-control": "#434C5E",
+          "surface-overlay": "#454B5B",
+          "rule": "#494F5B",
+          "divider": "#3D434F"
         }
       },
       {

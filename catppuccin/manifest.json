@@ -1,8 +1,9 @@
 {
   "id": "catppuccin",
   "name": "Catppuccin",
-  "version": "1.0.0",
-  "apiVersion": "^0.48.0",
+  "version": "1.0.1",
+  "description": "Soothing pastels: Latte by day, Mocha by night, with a mauve accent. A port with a matching code theme.",
+  "apiVersion": "^0.60.0",
   "contributes": {
     "themes": [
       {
@@ -18,7 +19,10 @@
           "accent-hover": "#6F2BD0",
           "accent-tint": "rgba(136, 57, 239, 0.12)",
           "surface-panel": "#E6E9EF",
-          "surface-control": "#DCE0E8"
+          "surface-control": "#DCE0E8",
+          "surface-overlay": "#F9F9FB",
+          "rule": "#D5D7DF",
+          "divider": "#E0E2E8"
         },
         "dark": {
           "page": "#1E1E2E",
@@ -29,7 +33,10 @@
           "accent-hover": "#D9BCFA",
           "accent-tint": "rgba(203, 166, 247, 0.16)",
           "surface-panel": "#181825",
-          "surface-control": "#313244"
+          "surface-control": "#313244",
+          "surface-overlay": "#242430",
+          "rule": "#3A3B4E",
+          "divider": "#2E2F40"
         }
       },
       {

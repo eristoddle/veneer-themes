@@ -1,8 +1,9 @@
 {
   "id": "solarized",
   "name": "Solarized",
-  "version": "1.0.0",
-  "apiVersion": "^0.48.0",
+  "version": "1.0.1",
+  "description": "Ethan Schoonover’s precision palette on warm cream and deep teal. A port with a matching code theme.",
+  "apiVersion": "^0.60.0",
   "contributes": {
     "themes": [
       {
@@ -18,7 +19,10 @@
           "accent-hover": "#1F72AE",
           "accent-tint": "rgba(38, 139, 210, 0.12)",
           "surface-panel": "#EEE8D5",
-          "surface-control": "#E4DDC6"
+          "surface-control": "#E4DDC6",
+          "surface-overlay": "#FEFBF4",
+          "rule": "#E3E0D1",
+          "divider": "#EEEAD9"
         },
         "dark": {
           "page": "#002B36",
@@ -29,7 +33,10 @@
           "accent-hover": "#4BA3E3",
           "accent-tint": "rgba(38, 139, 210, 0.16)",
           "surface-panel": "#073642",
-          "surface-control": "#0D4452"
+          "surface-control": "#0D4452",
+          "surface-overlay": "#13404B",
+          "rule": "#183E47",
+          "divider": "#0D3640"
         }
       },
       {

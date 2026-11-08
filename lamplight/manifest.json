@@ -1,0 +1,114 @@
+{
+  "id": "lamplight",
+  "name": "Lamplight",
+  "version": "1.0.0",
+  "description": "Designed dark-first for night writing with little blue light: an amber-brown page, warm cream text, and an ember accent, in Crimson Pro.",
+  "apiVersion": "^0.60.0",
+  "contributes": {
+    "themes": [
+      {
+        "id": "lamplight:lamplight",
+        "name": "Lamplight",
+        "codeTheme": "lamplight:code",
+        "fonts": {
+          "body": {
+            "family": "Crimson Pro",
+            "files": [
+              {
+                "path": "fonts/crimson-pro-latin-400-normal.woff2",
+                "weight": 400,
+                "style": "normal"
+              },
+              {
+                "path": "fonts/crimson-pro-latin-400-italic.woff2",
+                "weight": 400,
+                "style": "italic"
+              },
+              {
+                "path": "fonts/crimson-pro-latin-700-normal.woff2",
+                "weight": 700,
+                "style": "normal"
+              }
+            ]
+          },
+          "heading": {
+            "family": "Crimson Pro",
+            "files": [
+              {
+                "path": "fonts/crimson-pro-latin-400-normal.woff2",
+                "weight": 400,
+                "style": "normal"
+              },
+              {
+                "path": "fonts/crimson-pro-latin-700-normal.woff2",
+                "weight": 700,
+                "style": "normal"
+              }
+            ]
+          }
+        },
+        "light": {
+          "page": "#F1E6D0",
+          "text": "#3B2A1B",
+          "text-muted": "#6B563F",
+          "text-subtle": "#86705A",
+          "accent": "#A4511A",
+          "accent-hover": "#873F0F",
+          "accent-tint": "rgba(164, 81, 26, 0.12)",
+          "surface-panel": "#E8DCC2",
+          "surface-control": "#DDCFB1",
+          "surface-overlay": "#F9F5EC",
+          "rule": "#D4C8B3",
+          "divider": "#E1D5C0"
+        },
+        "dark": {
+          "page": "#2B1F16",
+          "text": "#F1E2C6",
+          "text-muted": "#C3AE8C",
+          "text-subtle": "#9A8567",
+          "accent": "#E8893A",
+          "accent-hover": "#F29F57",
+          "accent-tint": "rgba(232, 137, 58, 0.16)",
+          "surface-panel": "#34261B",
+          "surface-control": "#402F22",
+          "surface-overlay": "#3E3126",
+          "rule": "#4B3E32",
+          "divider": "#3D3126"
+        }
+      },
+      {
+        "id": "lamplight:code",
+        "name": "Lamplight code",
+        "scope": "code",
+        "light": {
+          "surface-code": "#E8DCC2",
+          "syntax-keyword": "#9A3F1A",
+          "syntax-string": "#59672D",
+          "syntax-comment": "#86705A",
+          "syntax-number": "#8D5311",
+          "syntax-function": "#3F5F78",
+          "syntax-type": "#7A4A66",
+          "syntax-variable": "#3B2A1B",
+          "syntax-operator": "#6B563F",
+          "syntax-punctuation": "#6B563F",
+          "syntax-tag": "#9A3F1A",
+          "syntax-attribute": "#8D5311"
+        },
+        "dark": {
+          "surface-code": "#34261B",
+          "syntax-keyword": "#F0996A",
+          "syntax-string": "#B9C47F",
+          "syntax-comment": "#9A8567",
+          "syntax-number": "#F0B85A",
+          "syntax-function": "#9DB8C8",
+          "syntax-type": "#D4A3B8",
+          "syntax-variable": "#F1E2C6",
+          "syntax-operator": "#C3AE8C",
+          "syntax-punctuation": "#C3AE8C",
+          "syntax-tag": "#F0996A",
+          "syntax-attribute": "#F0B85A"
+        }
+      }
+    ]
+  }
+}

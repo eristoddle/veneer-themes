@@ -1,0 +1,77 @@
+{
+  "id": "atom-one",
+  "name": "Atom One",
+  "version": "1.0.0",
+  "description": "The One Light and One Dark palettes from Atom. A port with a matching code theme.",
+  "apiVersion": "^0.60.0",
+  "contributes": {
+    "themes": [
+      {
+        "id": "atom-one:atom-one",
+        "name": "Atom One",
+        "codeTheme": "atom-one:code",
+        "light": {
+          "page": "#FAFAFA",
+          "text": "#383A42",
+          "text-muted": "#50525A",
+          "text-subtle": "#696C77",
+          "accent": "#3F6ED6",
+          "accent-hover": "#2F5FD0",
+          "accent-tint": "rgba(63, 110, 214, 0.12)",
+          "surface-panel": "#F0F0F0",
+          "surface-control": "#E5E5E6",
+          "surface-overlay": "#FDFDFD",
+          "rule": "#DBDBDD",
+          "divider": "#E9E9E9"
+        },
+        "dark": {
+          "page": "#282C34",
+          "text": "#ABB2BF",
+          "text-muted": "#9BA1AD",
+          "text-subtle": "#7F848E",
+          "accent": "#61AFEF",
+          "accent-hover": "#7DC0F5",
+          "accent-tint": "rgba(97, 175, 239, 0.16)",
+          "surface-panel": "#2C313A",
+          "surface-control": "#353B45",
+          "surface-overlay": "#373B44",
+          "rule": "#3D414A",
+          "divider": "#343841"
+        }
+      },
+      {
+        "id": "atom-one:code",
+        "name": "Atom One code",
+        "scope": "code",
+        "light": {
+          "surface-code": "#F0F0F0",
+          "syntax-keyword": "#A626A4",
+          "syntax-string": "#3E7A3F",
+          "syntax-comment": "#696C77",
+          "syntax-number": "#926505",
+          "syntax-function": "#3E69C8",
+          "syntax-type": "#0D74A1",
+          "syntax-variable": "#383A42",
+          "syntax-operator": "#50525A",
+          "syntax-punctuation": "#50525A",
+          "syntax-tag": "#B04E47",
+          "syntax-attribute": "#926505"
+        },
+        "dark": {
+          "surface-code": "#2C313A",
+          "syntax-keyword": "#C47DDB",
+          "syntax-string": "#98C379",
+          "syntax-comment": "#7F848E",
+          "syntax-number": "#D19A66",
+          "syntax-function": "#61AFEF",
+          "syntax-type": "#56B6C2",
+          "syntax-variable": "#ABB2BF",
+          "syntax-operator": "#9BA1AD",
+          "syntax-punctuation": "#9BA1AD",
+          "syntax-tag": "#CE848E",
+          "syntax-attribute": "#E5C07B"
+        }
+      }
+    ]
+  }
+}

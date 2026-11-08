@@ -1,0 +1,124 @@
+{
+  "id": "blueprint",
+  "name": "Blueprint",
+  "version": "1.0.0",
+  "description": "A drafting sheet: a deep blue page, white-blue text, and a cyan accent, in Space Grotesk with Space Mono for code.",
+  "apiVersion": "^0.60.0",
+  "contributes": {
+    "themes": [
+      {
+        "id": "blueprint:blueprint",
+        "name": "Blueprint",
+        "codeTheme": "blueprint:code",
+        "fonts": {
+          "body": {
+            "family": "Space Grotesk",
+            "files": [
+              {
+                "path": "fonts/space-grotesk-latin-400-normal.woff2",
+                "weight": 400,
+                "style": "normal"
+              },
+              {
+                "path": "fonts/space-grotesk-latin-700-normal.woff2",
+                "weight": 700,
+                "style": "normal"
+              }
+            ]
+          },
+          "heading": {
+            "family": "Space Grotesk",
+            "files": [
+              {
+                "path": "fonts/space-grotesk-latin-400-normal.woff2",
+                "weight": 400,
+                "style": "normal"
+              },
+              {
+                "path": "fonts/space-grotesk-latin-700-normal.woff2",
+                "weight": 700,
+                "style": "normal"
+              }
+            ]
+          },
+          "code": {
+            "family": "Space Mono",
+            "files": [
+              {
+                "path": "fonts/space-mono-latin-400-normal.woff2",
+                "weight": 400,
+                "style": "normal"
+              },
+              {
+                "path": "fonts/space-mono-latin-700-normal.woff2",
+                "weight": 700,
+                "style": "normal"
+              }
+            ]
+          }
+        },
+        "light": {
+          "page": "#E9F1FA",
+          "text": "#0E2A4D",
+          "text-muted": "#3A587F",
+          "text-subtle": "#5B7798",
+          "accent": "#006C86",
+          "accent-hover": "#00546A",
+          "accent-tint": "rgba(0, 108, 134, 0.12)",
+          "surface-panel": "#DCE8F5",
+          "surface-control": "#CFDFF0",
+          "surface-overlay": "#F6F9FD",
+          "rule": "#C6D1DE",
+          "divider": "#D5DFEA"
+        },
+        "dark": {
+          "page": "#0F2A4A",
+          "text": "#E4F0FF",
+          "text-muted": "#A9C6E8",
+          "text-subtle": "#7FA2CC",
+          "accent": "#4FD8F0",
+          "accent-hover": "#7BE4F6",
+          "accent-tint": "rgba(79, 216, 240, 0.16)",
+          "surface-panel": "#143458",
+          "surface-control": "#1B4068",
+          "surface-overlay": "#203E60",
+          "rule": "#314A67",
+          "divider": "#223C5A"
+        }
+      },
+      {
+        "id": "blueprint:code",
+        "name": "Blueprint code",
+        "scope": "code",
+        "light": {
+          "surface-code": "#DCE8F5",
+          "syntax-keyword": "#004E8C",
+          "syntax-string": "#1B6B4A",
+          "syntax-comment": "#5B7798",
+          "syntax-number": "#9A4A00",
+          "syntax-function": "#006C86",
+          "syntax-type": "#5A3FA0",
+          "syntax-variable": "#0E2A4D",
+          "syntax-operator": "#3A587F",
+          "syntax-punctuation": "#3A587F",
+          "syntax-tag": "#004E8C",
+          "syntax-attribute": "#9A4A00"
+        },
+        "dark": {
+          "surface-code": "#143458",
+          "syntax-keyword": "#79B8FF",
+          "syntax-string": "#8FE3B0",
+          "syntax-comment": "#7FA2CC",
+          "syntax-number": "#FFC27A",
+          "syntax-function": "#4FD8F0",
+          "syntax-type": "#B8A4FF",
+          "syntax-variable": "#E4F0FF",
+          "syntax-operator": "#A9C6E8",
+          "syntax-punctuation": "#A9C6E8",
+          "syntax-tag": "#79B8FF",
+          "syntax-attribute": "#FFC27A"
+        }
+      }
+    ]
+  }
+}

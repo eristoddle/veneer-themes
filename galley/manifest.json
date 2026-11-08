@@ -1,0 +1,114 @@
+{
+  "id": "galley",
+  "name": "Galley",
+  "version": "1.0.0",
+  "description": "A printed book page: ivory paper, warm black type, a very quiet brown accent, in EB Garamond.",
+  "apiVersion": "^0.60.0",
+  "contributes": {
+    "themes": [
+      {
+        "id": "galley:galley",
+        "name": "Galley",
+        "codeTheme": "galley:code",
+        "fonts": {
+          "body": {
+            "family": "EB Garamond",
+            "files": [
+              {
+                "path": "fonts/eb-garamond-latin-400-normal.woff2",
+                "weight": 400,
+                "style": "normal"
+              },
+              {
+                "path": "fonts/eb-garamond-latin-400-italic.woff2",
+                "weight": 400,
+                "style": "italic"
+              },
+              {
+                "path": "fonts/eb-garamond-latin-700-normal.woff2",
+                "weight": 700,
+                "style": "normal"
+              }
+            ]
+          },
+          "heading": {
+            "family": "EB Garamond",
+            "files": [
+              {
+                "path": "fonts/eb-garamond-latin-400-normal.woff2",
+                "weight": 400,
+                "style": "normal"
+              },
+              {
+                "path": "fonts/eb-garamond-latin-700-normal.woff2",
+                "weight": 700,
+                "style": "normal"
+              }
+            ]
+          }
+        },
+        "light": {
+          "page": "#F6F0E1",
+          "text": "#25201A",
+          "text-muted": "#5A5044",
+          "text-subtle": "#7A6E5E",
+          "accent": "#7A5C3A",
+          "accent-hover": "#5E4529",
+          "accent-tint": "rgba(122, 92, 58, 0.12)",
+          "surface-panel": "#EDE5D2",
+          "surface-control": "#E3D9C2",
+          "surface-overlay": "#FBF9F3",
+          "rule": "#D5CFC1",
+          "divider": "#E3DDCF"
+        },
+        "dark": {
+          "page": "#2A211B",
+          "text": "#EBE1CC",
+          "text-muted": "#B8AA92",
+          "text-subtle": "#8F826C",
+          "accent": "#C9A877",
+          "accent-hover": "#D9BC8E",
+          "accent-tint": "rgba(201, 168, 119, 0.16)",
+          "surface-panel": "#33291F",
+          "surface-control": "#3D3226",
+          "surface-overlay": "#3D342A",
+          "rule": "#494037",
+          "divider": "#3B322B"
+        }
+      },
+      {
+        "id": "galley:code",
+        "name": "Galley code",
+        "scope": "code",
+        "light": {
+          "surface-code": "#EDE5D2",
+          "syntax-keyword": "#7A3E2B",
+          "syntax-string": "#4F6B3A",
+          "syntax-comment": "#7A6E5E",
+          "syntax-number": "#8A5A1F",
+          "syntax-function": "#3A5A73",
+          "syntax-type": "#6A4A6E",
+          "syntax-variable": "#25201A",
+          "syntax-operator": "#5A5044",
+          "syntax-punctuation": "#5A5044",
+          "syntax-tag": "#7A3E2B",
+          "syntax-attribute": "#8A5A1F"
+        },
+        "dark": {
+          "surface-code": "#33291F",
+          "syntax-keyword": "#D99A82",
+          "syntax-string": "#AFC48A",
+          "syntax-comment": "#8F826C",
+          "syntax-number": "#E0B872",
+          "syntax-function": "#8FB4CC",
+          "syntax-type": "#C8A0C4",
+          "syntax-variable": "#EBE1CC",
+          "syntax-operator": "#B8AA92",
+          "syntax-punctuation": "#B8AA92",
+          "syntax-tag": "#D99A82",
+          "syntax-attribute": "#E0B872"
+        }
+      }
+    ]
+  }
+}

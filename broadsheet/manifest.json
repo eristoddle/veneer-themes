@@ -1,8 +1,9 @@
 {
   "id": "broadsheet",
   "name": "Broadsheet",
-  "version": "1.0.0",
-  "apiVersion": "^0.48.0",
+  "version": "1.0.1",
+  "description": "Grey-tan newsprint, dense black type, Newsreader with Old Standard TT headings.",
+  "apiVersion": "^0.60.0",
   "contributes": {
     "themes": [
       {
@@ -55,7 +56,10 @@
           "accent-hover": "#6E1414",
           "accent-tint": "rgba(139, 26, 26, 0.12)",
           "surface-panel": "#DED8C8",
-          "surface-control": "#D3CCBA"
+          "surface-control": "#D3CCBA",
+          "surface-overlay": "#F6F4EE",
+          "rule": "#C6C1B6",
+          "divider": "#D5D0C3"
         },
         "dark": {
           "page": "#252320",
@@ -66,7 +70,10 @@
           "accent-hover": "#EEA597",
           "accent-tint": "rgba(229, 139, 123, 0.16)",
           "surface-panel": "#2E2B27",
-          "surface-control": "#38342F"
+          "surface-control": "#38342F",
+          "surface-overlay": "#383632",
+          "rule": "#43403C",
+          "divider": "#363430"
         }
       },
       {

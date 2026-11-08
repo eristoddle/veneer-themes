@@ -1,8 +1,9 @@
 {
   "id": "midnight-ink",
   "name": "Midnight Ink",
-  "version": "1.0.0",
-  "apiVersion": "^0.48.0",
+  "version": "1.0.1",
+  "description": "Dark first: blue-black, cream text, gold accents, set in Literata.",
+  "apiVersion": "^0.60.0",
   "contributes": {
     "themes": [
       {
@@ -55,7 +56,10 @@
           "accent-hover": "#1F3A7A",
           "accent-tint": "rgba(43, 76, 155, 0.12)",
           "surface-panel": "#E8ECF6",
-          "surface-control": "#DCE2F0"
+          "surface-control": "#DCE2F0",
+          "surface-overlay": "#FAFBFD",
+          "rule": "#D1D4DD",
+          "divider": "#E0E2EA"
         },
         "dark": {
           "page": "#12172B",
@@ -66,7 +70,10 @@
           "accent-hover": "#E6C677",
           "accent-tint": "rgba(217, 180, 90, 0.16)",
           "surface-panel": "#1A2038",
-          "surface-control": "#242B47"
+          "surface-control": "#242B47",
+          "surface-overlay": "#252B42",
+          "rule": "#353845",
+          "divider": "#262A3A"
         }
       },
       {

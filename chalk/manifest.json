@@ -1,0 +1,114 @@
+{
+  "id": "chalk",
+  "name": "Chalk",
+  "version": "1.0.0",
+  "description": "A slate chalkboard: deep green-grey, chalk-white text, and a soft yellow accent, in Nunito.",
+  "apiVersion": "^0.60.0",
+  "contributes": {
+    "themes": [
+      {
+        "id": "chalk:chalk",
+        "name": "Chalk",
+        "codeTheme": "chalk:code",
+        "fonts": {
+          "body": {
+            "family": "Nunito",
+            "files": [
+              {
+                "path": "fonts/nunito-latin-400-normal.woff2",
+                "weight": 400,
+                "style": "normal"
+              },
+              {
+                "path": "fonts/nunito-latin-400-italic.woff2",
+                "weight": 400,
+                "style": "italic"
+              },
+              {
+                "path": "fonts/nunito-latin-700-normal.woff2",
+                "weight": 700,
+                "style": "normal"
+              }
+            ]
+          },
+          "heading": {
+            "family": "Nunito",
+            "files": [
+              {
+                "path": "fonts/nunito-latin-400-normal.woff2",
+                "weight": 400,
+                "style": "normal"
+              },
+              {
+                "path": "fonts/nunito-latin-700-normal.woff2",
+                "weight": 700,
+                "style": "normal"
+              }
+            ]
+          }
+        },
+        "light": {
+          "page": "#E6EBEA",
+          "text": "#2A3331",
+          "text-muted": "#53625F",
+          "text-subtle": "#6F7F7B",
+          "accent": "#806505",
+          "accent-hover": "#6C5300",
+          "accent-tint": "rgba(128, 101, 5, 0.12)",
+          "surface-panel": "#DAE1DF",
+          "surface-control": "#CED7D5",
+          "surface-overlay": "#F5F7F7",
+          "rule": "#C8CECC",
+          "divider": "#D5DAD9"
+        },
+        "dark": {
+          "page": "#2B3836",
+          "text": "#EEF1EA",
+          "text-muted": "#BCC9C4",
+          "text-subtle": "#93A5A0",
+          "accent": "#F2D675",
+          "accent-hover": "#F7E39A",
+          "accent-tint": "rgba(242, 214, 117, 0.16)",
+          "surface-panel": "#324240",
+          "surface-control": "#3B4D4A",
+          "surface-overlay": "#3C4B4A",
+          "rule": "#4A5653",
+          "divider": "#3D4946"
+        }
+      },
+      {
+        "id": "chalk:code",
+        "name": "Chalk code",
+        "scope": "code",
+        "light": {
+          "surface-code": "#DAE1DF",
+          "syntax-keyword": "#7A4A8A",
+          "syntax-string": "#2F6B4A",
+          "syntax-comment": "#6F7F7B",
+          "syntax-number": "#8F5613",
+          "syntax-function": "#2F6988",
+          "syntax-type": "#216D6B",
+          "syntax-variable": "#2A3331",
+          "syntax-operator": "#53625F",
+          "syntax-punctuation": "#53625F",
+          "syntax-tag": "#7A4A8A",
+          "syntax-attribute": "#8F5613"
+        },
+        "dark": {
+          "surface-code": "#324240",
+          "syntax-keyword": "#E8A0C0",
+          "syntax-string": "#A8D8A0",
+          "syntax-comment": "#93A5A0",
+          "syntax-number": "#F4B97A",
+          "syntax-function": "#8CC8E8",
+          "syntax-type": "#8CDCD0",
+          "syntax-variable": "#EEF1EA",
+          "syntax-operator": "#BCC9C4",
+          "syntax-punctuation": "#BCC9C4",
+          "syntax-tag": "#E8A0C0",
+          "syntax-attribute": "#F4B97A"
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,114 @@
+{
+  "id": "botanical",
+  "name": "Botanical",
+  "version": "1.0.0",
+  "description": "Sage greens and cream, herbarium calm: Spectral for the body and Cormorant Garamond for headings.",
+  "apiVersion": "^0.60.0",
+  "contributes": {
+    "themes": [
+      {
+        "id": "botanical:botanical",
+        "name": "Botanical",
+        "codeTheme": "botanical:code",
+        "fonts": {
+          "body": {
+            "family": "Spectral",
+            "files": [
+              {
+                "path": "fonts/spectral-latin-400-normal.woff2",
+                "weight": 400,
+                "style": "normal"
+              },
+              {
+                "path": "fonts/spectral-latin-400-italic.woff2",
+                "weight": 400,
+                "style": "italic"
+              },
+              {
+                "path": "fonts/spectral-latin-700-normal.woff2",
+                "weight": 700,
+                "style": "normal"
+              }
+            ]
+          },
+          "heading": {
+            "family": "Cormorant Garamond",
+            "files": [
+              {
+                "path": "fonts/cormorant-garamond-latin-400-normal.woff2",
+                "weight": 400,
+                "style": "normal"
+              },
+              {
+                "path": "fonts/cormorant-garamond-latin-700-normal.woff2",
+                "weight": 700,
+                "style": "normal"
+              }
+            ]
+          }
+        },
+        "light": {
+          "page": "#F2F1E4",
+          "text": "#26352A",
+          "text-muted": "#55654F",
+          "text-subtle": "#6F7F68",
+          "accent": "#3F6B49",
+          "accent-hover": "#2E5238",
+          "accent-tint": "rgba(63, 107, 73, 0.12)",
+          "surface-panel": "#E7E8D6",
+          "surface-control": "#DCDFC8",
+          "surface-overlay": "#FAF9F4",
+          "rule": "#D1D3C6",
+          "divider": "#E0E0D3"
+        },
+        "dark": {
+          "page": "#1C2A22",
+          "text": "#D6E3CB",
+          "text-muted": "#A5B89B",
+          "text-subtle": "#7F9477",
+          "accent": "#9CC48A",
+          "accent-hover": "#B3D6A3",
+          "accent-tint": "rgba(156, 196, 138, 0.16)",
+          "surface-panel": "#23342A",
+          "surface-control": "#2C3F33",
+          "surface-overlay": "#2E3E35",
+          "rule": "#3A483D",
+          "divider": "#2D3B31"
+        }
+      },
+      {
+        "id": "botanical:code",
+        "name": "Botanical code",
+        "scope": "code",
+        "light": {
+          "surface-code": "#E7E8D6",
+          "syntax-keyword": "#7A3E5A",
+          "syntax-string": "#3F6B49",
+          "syntax-comment": "#6F7F68",
+          "syntax-number": "#8A5A1F",
+          "syntax-function": "#2F5E7A",
+          "syntax-type": "#6A4A8A",
+          "syntax-variable": "#26352A",
+          "syntax-operator": "#55654F",
+          "syntax-punctuation": "#55654F",
+          "syntax-tag": "#7A3E5A",
+          "syntax-attribute": "#8A5A1F"
+        },
+        "dark": {
+          "surface-code": "#23342A",
+          "syntax-keyword": "#E0A0B8",
+          "syntax-string": "#9CC48A",
+          "syntax-comment": "#7F9477",
+          "syntax-number": "#E6C27A",
+          "syntax-function": "#8CBCD8",
+          "syntax-type": "#C0A8E0",
+          "syntax-variable": "#D6E3CB",
+          "syntax-operator": "#A5B89B",
+          "syntax-punctuation": "#A5B89B",
+          "syntax-tag": "#E0A0B8",
+          "syntax-attribute": "#E6C27A"
+        }
+      }
+    ]
+  }
+}

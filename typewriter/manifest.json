@@ -1,8 +1,9 @@
 {
   "id": "typewriter",
   "name": "Typewriter",
-  "version": "1.0.0",
-  "apiVersion": "^0.48.0",
+  "version": "1.0.1",
+  "description": "A cream page, ribbon-black text, a red accent, set in Courier Prime.",
+  "apiVersion": "^0.60.0",
   "contributes": {
     "themes": [
       {
@@ -55,7 +56,10 @@
           "accent-hover": "#8F1D17",
           "accent-tint": "rgba(179, 38, 30, 0.12)",
           "surface-panel": "#EBE3CF",
-          "surface-control": "#E0D7C0"
+          "surface-control": "#E0D7C0",
+          "surface-overlay": "#FBF8F1",
+          "rule": "#D1CBBD",
+          "divider": "#E1DACA"
         },
         "dark": {
           "page": "#1A1A19",
@@ -66,7 +70,10 @@
           "accent-hover": "#FF988D",
           "accent-tint": "rgba(255, 123, 110, 0.16)",
           "surface-panel": "#232321",
-          "surface-control": "#2D2D2A"
+          "surface-control": "#2D2D2A",
+          "surface-overlay": "#2E2E2C",
+          "rule": "#3B3221",
+          "divider": "#2D281D"
         }
       },
       {

@@ -1,8 +1,9 @@
 {
   "id": "fieldnotes",
   "name": "Fieldnotes",
-  "version": "1.0.1",
-  "apiVersion": "^0.48.0",
+  "version": "1.0.2",
+  "description": "A warm paper page, ink-brown text, set in Lora.",
+  "apiVersion": "^0.60.0",
   "contributes": {
     "themes": [
       {
@@ -13,9 +14,21 @@
           "body": {
             "family": "Lora",
             "files": [
-              { "path": "fonts/lora-latin-400-normal.woff2", "weight": 400, "style": "normal" },
-              { "path": "fonts/lora-latin-400-italic.woff2", "weight": 400, "style": "italic" },
-              { "path": "fonts/lora-latin-700-normal.woff2", "weight": 700, "style": "normal" }
+              {
+                "path": "fonts/lora-latin-400-normal.woff2",
+                "weight": 400,
+                "style": "normal"
+              },
+              {
+                "path": "fonts/lora-latin-400-italic.woff2",
+                "weight": 400,
+                "style": "italic"
+              },
+              {
+                "path": "fonts/lora-latin-700-normal.woff2",
+                "weight": 700,
+                "style": "normal"
+              }
             ]
           }
         },
@@ -28,7 +41,10 @@
           "accent-hover": "#7E3A12",
           "accent-tint": "rgba(156, 74, 26, 0.12)",
           "surface-panel": "#F2EAD6",
-          "surface-control": "#EADFC5"
+          "surface-control": "#EADFC5",
+          "surface-overlay": "#FDFBF5",
+          "rule": "#DBD4C7",
+          "divider": "#E9E2D5"
         },
         "dark": {
           "page": "#241C15",
@@ -39,7 +55,10 @@
           "accent-hover": "#EDAA74",
           "accent-tint": "rgba(224, 149, 90, 0.16)",
           "surface-panel": "#2D241B",
-          "surface-control": "#382D22"
+          "surface-control": "#382D22",
+          "surface-overlay": "#382F26",
+          "rule": "#443B32",
+          "divider": "#362D25"
         }
       },
       {

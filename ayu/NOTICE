@@ -1,0 +1,8 @@
+Ayu palette
+Source: https://github.com/ayu-theme/ayu-colors
+License: MIT
+Copyright (c) Konstantin Pschera (ayu-colors)
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this palette and associated documentation files, to deal in it without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies, subject to the above copyright notice and this permission notice being included in all copies or substantial portions. THE PALETTE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND.
+
+This package maps the palette onto Veneer's color tokens. 

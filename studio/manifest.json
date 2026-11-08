@@ -1,8 +1,9 @@
 {
   "id": "studio",
   "name": "Studio",
-  "version": "1.0.0",
-  "apiVersion": "^0.48.0",
+  "version": "1.0.1",
+  "description": "Clean modern sans in cool greys with one teal accent, IBM Plex Sans.",
+  "apiVersion": "^0.60.0",
   "contributes": {
     "themes": [
       {
@@ -70,7 +71,10 @@
           "accent-hover": "#085C5E",
           "accent-tint": "rgba(11, 122, 124, 0.12)",
           "surface-panel": "#EDF0F3",
-          "surface-control": "#E1E6EB"
+          "surface-control": "#E1E6EB",
+          "surface-overlay": "#FCFCFD",
+          "rule": "#D4D7D9",
+          "divider": "#E4E5E7"
         },
         "dark": {
           "page": "#1E2226",
@@ -81,7 +85,10 @@
           "accent-hover": "#66D4D6",
           "accent-tint": "rgba(60, 196, 198, 0.16)",
           "surface-panel": "#262B30",
-          "surface-control": "#30363C"
+          "surface-control": "#30363C",
+          "surface-overlay": "#31363A",
+          "rule": "#3E4246",
+          "divider": "#303438"
         }
       },
       {

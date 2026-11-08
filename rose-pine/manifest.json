@@ -1,8 +1,9 @@
 {
   "id": "rose-pine",
   "name": "Rosé Pine",
-  "version": "1.0.0",
-  "apiVersion": "^0.48.0",
+  "version": "1.0.1",
+  "description": "All natural pine, faux fur, and a bit of soho vibes: muted rose and iris. A port with a matching code theme.",
+  "apiVersion": "^0.60.0",
   "contributes": {
     "themes": [
       {
@@ -18,7 +19,10 @@
           "accent-hover": "#9A4F66",
           "accent-tint": "rgba(180, 99, 122, 0.12)",
           "surface-panel": "#FFFAF3",
-          "surface-control": "#F2E9E1"
+          "surface-control": "#F2E9E1",
+          "surface-overlay": "#FDFBF8",
+          "rule": "#E0DADA",
+          "divider": "#EBE5E3"
         },
         "dark": {
           "page": "#191724",
@@ -29,7 +33,10 @@
           "accent-hover": "#F2CDCB",
           "accent-tint": "rgba(235, 188, 186, 0.16)",
           "surface-panel": "#1F1D2E",
-          "surface-control": "#26233A"
+          "surface-control": "#26233A",
+          "surface-overlay": "#2A2838",
+          "rule": "#393745",
+          "divider": "#2B2937"
         }
       },
       {

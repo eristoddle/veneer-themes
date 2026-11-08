@@ -1,0 +1,114 @@
+{
+  "id": "clear",
+  "name": "Clear",
+  "version": "1.0.0",
+  "description": "Legibility first: body and muted text reach 7:1 (WCAG AAA) in both modes, in Atkinson Hyperlegible.",
+  "apiVersion": "^0.60.0",
+  "contributes": {
+    "themes": [
+      {
+        "id": "clear:clear",
+        "name": "Clear",
+        "codeTheme": "clear:code",
+        "fonts": {
+          "body": {
+            "family": "Atkinson Hyperlegible",
+            "files": [
+              {
+                "path": "fonts/atkinson-hyperlegible-latin-400-normal.woff2",
+                "weight": 400,
+                "style": "normal"
+              },
+              {
+                "path": "fonts/atkinson-hyperlegible-latin-400-italic.woff2",
+                "weight": 400,
+                "style": "italic"
+              },
+              {
+                "path": "fonts/atkinson-hyperlegible-latin-700-normal.woff2",
+                "weight": 700,
+                "style": "normal"
+              }
+            ]
+          },
+          "heading": {
+            "family": "Atkinson Hyperlegible",
+            "files": [
+              {
+                "path": "fonts/atkinson-hyperlegible-latin-400-normal.woff2",
+                "weight": 400,
+                "style": "normal"
+              },
+              {
+                "path": "fonts/atkinson-hyperlegible-latin-700-normal.woff2",
+                "weight": 700,
+                "style": "normal"
+              }
+            ]
+          }
+        },
+        "light": {
+          "page": "#FFFFFF",
+          "text": "#111111",
+          "text-muted": "#3D3D3D",
+          "text-subtle": "#595959",
+          "accent": "#0B4FB3",
+          "accent-hover": "#083A85",
+          "accent-tint": "rgba(11, 79, 179, 0.12)",
+          "surface-panel": "#F3F3F3",
+          "surface-control": "#E8E8E8",
+          "surface-overlay": "#FFFFFF",
+          "rule": "#D9D9D9",
+          "divider": "#EAEAEA"
+        },
+        "dark": {
+          "page": "#1C1C1C",
+          "text": "#F2F2F2",
+          "text-muted": "#D0D0D0",
+          "text-subtle": "#B0B0B0",
+          "accent": "#8DBBFF",
+          "accent-hover": "#B0D1FF",
+          "accent-tint": "rgba(141, 187, 255, 0.16)",
+          "surface-panel": "#262626",
+          "surface-control": "#323232",
+          "surface-overlay": "#313131",
+          "rule": "#3E3E3E",
+          "divider": "#2F2F2F"
+        }
+      },
+      {
+        "id": "clear:code",
+        "name": "Clear code",
+        "scope": "code",
+        "light": {
+          "surface-code": "#F3F3F3",
+          "syntax-keyword": "#7A1FA2",
+          "syntax-string": "#0B6B2E",
+          "syntax-comment": "#595959",
+          "syntax-number": "#8A4200",
+          "syntax-function": "#0B4FB3",
+          "syntax-type": "#006B75",
+          "syntax-variable": "#111111",
+          "syntax-operator": "#3D3D3D",
+          "syntax-punctuation": "#3D3D3D",
+          "syntax-tag": "#7A1FA2",
+          "syntax-attribute": "#8A4200"
+        },
+        "dark": {
+          "surface-code": "#262626",
+          "syntax-keyword": "#D7A8F0",
+          "syntax-string": "#9BE0A8",
+          "syntax-comment": "#B0B0B0",
+          "syntax-number": "#FFB482",
+          "syntax-function": "#8DBBFF",
+          "syntax-type": "#7AD9E3",
+          "syntax-variable": "#F2F2F2",
+          "syntax-operator": "#D0D0D0",
+          "syntax-punctuation": "#D0D0D0",
+          "syntax-tag": "#D7A8F0",
+          "syntax-attribute": "#FFB482"
+        }
+      }
+    ]
+  }
+}

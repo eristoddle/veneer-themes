@@ -1,0 +1,77 @@
+{
+  "id": "tokyo-night",
+  "name": "Tokyo Night",
+  "version": "1.0.0",
+  "description": "A port of Tokyo Night: Day for light and Night for dark, with its blue accent and purple and orange code colors. A port with a matching code theme.",
+  "apiVersion": "^0.60.0",
+  "contributes": {
+    "themes": [
+      {
+        "id": "tokyo-night:tokyo-night",
+        "name": "Tokyo Night",
+        "codeTheme": "tokyo-night:code",
+        "light": {
+          "page": "#E1E2E7",
+          "text": "#3760BF",
+          "text-muted": "#3860BF",
+          "text-subtle": "#6D7FB8",
+          "accent": "#3761C0",
+          "accent-hover": "#1F5FC2",
+          "accent-tint": "rgba(55, 97, 192, 0.12)",
+          "surface-panel": "#D5D6DB",
+          "surface-control": "#C4C8DA",
+          "surface-overlay": "#F3F3F5",
+          "rule": "#C6CDE1",
+          "divider": "#D2D6E3"
+        },
+        "dark": {
+          "page": "#1A1B26",
+          "text": "#C0CAF5",
+          "text-muted": "#A9B1D6",
+          "text-subtle": "#737AA2",
+          "accent": "#7AA2F7",
+          "accent-hover": "#9DB8F9",
+          "accent-tint": "rgba(122, 162, 247, 0.16)",
+          "surface-panel": "#1F2335",
+          "surface-control": "#292E42",
+          "surface-overlay": "#2A2E3F",
+          "rule": "#353747",
+          "divider": "#292B39"
+        }
+      },
+      {
+        "id": "tokyo-night:code",
+        "name": "Tokyo Night code",
+        "scope": "code",
+        "light": {
+          "surface-code": "#D5D6DB",
+          "syntax-keyword": "#3960C0",
+          "syntax-string": "#3860BC",
+          "syntax-comment": "#5E76BA",
+          "syntax-number": "#3960BB",
+          "syntax-function": "#3761C0",
+          "syntax-type": "#3660BE",
+          "syntax-variable": "#3760BF",
+          "syntax-operator": "#3860BF",
+          "syntax-punctuation": "#3860BF",
+          "syntax-tag": "#8C4C00",
+          "syntax-attribute": "#3960BB"
+        },
+        "dark": {
+          "surface-code": "#1F2335",
+          "syntax-keyword": "#BB9AF7",
+          "syntax-string": "#9ECE6A",
+          "syntax-comment": "#737AA2",
+          "syntax-number": "#FF9E64",
+          "syntax-function": "#7AA2F7",
+          "syntax-type": "#2AC3DE",
+          "syntax-variable": "#C0CAF5",
+          "syntax-operator": "#A9B1D6",
+          "syntax-punctuation": "#A9B1D6",
+          "syntax-tag": "#F7768E",
+          "syntax-attribute": "#E0AF68"
+        }
+      }
+    ]
+  }
+}
